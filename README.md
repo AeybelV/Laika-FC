@@ -1,7 +1,5 @@
 # Laika
 
-![Laika Logo](./img/laika_dog.png)
-
 A compact, Linux-based avionics computer module for drones & rocketry.
 
 ## Overview
