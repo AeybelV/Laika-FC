@@ -1,0 +1,20 @@
+name: Validate (ERC/DRC)
+on:
+  pull_request:
+  push:
+    branches: [ main, rev1 ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:9.0-full
+      # See https://github.com/actions/checkout/issues/1575#issuecomment-2536435128
+      options: --user root
+    steps:
+      - uses: actions/checkout@v4
+
+      # ERC (schematics)
+      - name: ERC
+        run: |
+          kicad-cli sch erc ./Laika/Laika.kicad_sch --exit-code-violations --severity-error 

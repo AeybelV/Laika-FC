@@ -106,6 +106,22 @@ These are *intentionally omitted* from RevA to simplify layout and bringup
 - RC/Remote input
 - Reworked power selection and monitoring.
 
+## Development Flow
+
+### Branch Strategy
+
+- `main`: Stable builds
+- `revX.X`: Where X.X is the revision number. These are development branches for board revisions
+- `feat/<name>`: Feature branches which and integrated/merged in "rev" branches
+
+### Tags
+
+- `revX.X-init`: The starting commit of a revision
+- `revX.X-schematic-draft-X`: A schematic draft/pass for a revision where all blocks exist
+- `revX.X-schematic-freeze`: Schematic freeze, ready to start layout
+- `revX.X-pre-fab`: Final ERC/DRC and final checks.
+- `revX.X-release`: Release commit sent to the fab. Merged into `main` branch.
+
 ## License
 
 Copyright © 2025 Aeybel Varghese
