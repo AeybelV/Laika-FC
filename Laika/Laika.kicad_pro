@@ -229,7 +229,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -408,6 +408,73 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
-  "text_variables": {}
+  "sheets": [
+    [
+      "57baccbf-5d29-4714-8f2e-7e9f593fcdf8",
+      "Root"
+    ],
+    [
+      "6c078d98-f795-4bff-ba6d-ace5d579e960",
+      "Project Architecture"
+    ],
+    [
+      "7c657933-39a1-4841-9d8c-8e8e4437a1f4",
+      "Power Connectors"
+    ],
+    [
+      "d2a1748e-3635-4fe2-b773-933130d84b1b",
+      "Power & Battery Management"
+    ],
+    [
+      "afb454cc-1c16-4ce4-9f1e-961c69cee3bb",
+      "SoC"
+    ],
+    [
+      "ba230dfb-0557-4ab9-8852-5cafebe5e88a",
+      "Sensors"
+    ],
+    [
+      "d45d1386-1f74-4a90-94b4-015d5f010220",
+      "IMU"
+    ],
+    [
+      "36537423-51c7-4eee-9bcb-03bb0ff13320",
+      "Barometer"
+    ],
+    [
+      "2be7367e-bc3d-4720-a273-61e25c82a758",
+      "Accelerometer"
+    ],
+    [
+      "3579a39d-b862-4fa6-a309-d4c6c5081eac",
+      "LoRa"
+    ],
+    [
+      "2a1083d0-6c48-490a-b311-5d9ae5229ae7",
+      "GPS"
+    ],
+    [
+      "81224984-5643-4c36-ac79-8e44b8e923a5",
+      "PWM and IO"
+    ],
+    [
+      "5deeb5d8-4399-4e7b-98ae-5b0e234457ce",
+      "SD Card"
+    ],
+    [
+      "240c268a-54e6-4268-8c45-39566e38984a",
+      "External Bus"
+    ],
+    [
+      "048b06c9-0bbe-42fb-958a-d8b2ea4b03dd",
+      "Misc - Buttons and Buzzers"
+    ]
+  ],
+  "text_variables": {
+    "BOARD_NAME": "Laika Flight Computer",
+    "COMPANY": "Aeybel Varghese",
+    "RELEASE_DATE": "2025-NOV-14",
+    "REVISION": "1",
+    "VARIANT": "Draft"
+  }
 }

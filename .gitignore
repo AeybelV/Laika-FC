@@ -43,7 +43,10 @@ fp-info-cache
 .svg2shenzhen-cache
 
 # Backups
-Laika/*-backups
+*/*-backups
+
+# Locks
+*.lck
 
 # Reports
 *.rpt
