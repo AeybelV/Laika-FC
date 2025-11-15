@@ -37,7 +37,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sheets/sensors/Accelerometer.kicad_sch"
+		(property "Sheetfile" "sensors/Accelerometer.kicad_sch"
 			(at 139.7 127.5846 0)
 			(effects
 				(font
@@ -79,7 +79,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sheets/sensors/Barometer.kicad_sch"
+		(property "Sheetfile" "sensors/Barometer.kicad_sch"
 			(at 101.6 127.5846 0)
 			(effects
 				(font
@@ -121,7 +121,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sheets/sensors/IMU.kicad_sch"
+		(property "Sheetfile" "sensors/IMU.kicad_sch"
 			(at 63.5 127.5846 0)
 			(effects
 				(font
