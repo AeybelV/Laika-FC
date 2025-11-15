@@ -1,0 +1,34 @@
+name: Build Fabrication Artifacts
+on:
+  pull_request:
+  push:
+    branches: [ main, rev1 ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:9.0-full
+      # See https://github.com/actions/checkout/issues/1575#issuecomment-2536435128
+      options: --user root
+    defaults:
+      run:
+        working-directory: Laika
+    steps:
+      - uses: actions/checkout@v4
+      # Create CI Folder
+      - name: Prepare CI Folder
+        run: |
+          mkdir -p ./ci/docs
+
+      # Schematic documentation (PDF)
+      - name: Schematic PDF
+        run: |
+          kicad-cli sch export pdf -o ./ci/docs/Laika-schematic.pdf ./Laika.kicad_sch
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: fabrication-artifacts
+          path: Laika/ci
+          retention-days: 14
