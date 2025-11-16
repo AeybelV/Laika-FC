@@ -12,6 +12,9 @@
 		(comment 1 "${VARIANT}")
 	)
 	(lib_symbols)
+	(bus_alias "USB_DATA"
+		(members "USB_DM" "USB_DP")
+	)
 	(rectangle
 		(start 190.5 76.2)
 		(end 279.4 139.7)

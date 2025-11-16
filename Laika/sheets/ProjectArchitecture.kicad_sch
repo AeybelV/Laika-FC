@@ -12,8 +12,38 @@
 		(comment 1 "${VARIANT}")
 	)
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 69.85 63.5) (xy 69.85 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476a8662-4c86-4e72-b543-83f7ed1056f9")
+	)
+	(bus
+		(pts
+			(xy 76.2 63.5) (xy 69.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87eaacad-5c43-4a2c-99ff-64a735d32730")
+	)
+	(bus
+		(pts
+			(xy 69.85 38.1) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1bc7d51-53e2-4a0e-b496-48dbfecd9d48")
+	)
 	(sheet
-		(at 215.9 101.6)
+		(at 38.1 114.3)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29,7 +59,7 @@
 		)
 		(uuid "048b06c9-0bbe-42fb-958a-d8b2ea4b03dd")
 		(property "Sheetname" "Misc - Buttons and Buzzers"
-			(at 215.9 100.8884 0)
+			(at 38.1 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38,7 +68,7 @@
 			)
 		)
 		(property "Sheetfile" "Misc.kicad_sch"
-			(at 215.9 127.5846 0)
+			(at 38.1 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55,7 +85,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 101.6)
+		(at 110.49 152.4)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -71,7 +101,7 @@
 		)
 		(uuid "240c268a-54e6-4268-8c45-39566e38984a")
 		(property "Sheetname" "External Bus"
-			(at 177.8 100.8884 0)
+			(at 110.49 151.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80,7 +110,7 @@
 			)
 		)
 		(property "Sheetfile" "Bus.kicad_sch"
-			(at 177.8 127.5846 0)
+			(at 110.49 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97,7 +127,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 101.6)
+		(at 160.02 92.71)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -113,7 +143,7 @@
 		)
 		(uuid "2a1083d0-6c48-490a-b311-5d9ae5229ae7")
 		(property "Sheetname" "GPS"
-			(at 63.5 100.8884 0)
+			(at 160.02 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,7 +152,7 @@
 			)
 		)
 		(property "Sheetfile" "GPS.kicad_sch"
-			(at 63.5 127.5846 0)
+			(at 160.02 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,7 +169,7 @@
 		)
 	)
 	(sheet
-		(at 215.9 63.5)
+		(at 160.02 124.46)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -155,7 +185,7 @@
 		)
 		(uuid "3579a39d-b862-4fa6-a309-d4c6c5081eac")
 		(property "Sheetname" "LoRa"
-			(at 215.9 62.7884 0)
+			(at 160.02 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,7 +194,7 @@
 			)
 		)
 		(property "Sheetfile" "LoRa.kicad_sch"
-			(at 215.9 89.4846 0)
+			(at 160.02 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -181,7 +211,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 101.6)
+		(at 160.02 29.21)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -197,7 +227,7 @@
 		)
 		(uuid "5deeb5d8-4399-4e7b-98ae-5b0e234457ce")
 		(property "Sheetname" "SD Card"
-			(at 139.7 100.8884 0)
+			(at 160.02 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206,7 +236,7 @@
 			)
 		)
 		(property "Sheetfile" "SD.kicad_sch"
-			(at 139.7 127.5846 0)
+			(at 160.02 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -223,7 +253,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 63.5)
+		(at 38.1 19.05)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -239,7 +269,7 @@
 		)
 		(uuid "7c657933-39a1-4841-9d8c-8e8e4437a1f4")
 		(property "Sheetname" "Power Connectors"
-			(at 63.5 62.7884 0)
+			(at 38.1 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -248,12 +278,22 @@
 			)
 		)
 		(property "Sheetfile" "PowerConnectors.kicad_sch"
-			(at 63.5 89.4846 0)
+			(at 38.1 45.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{USB_DATA}" bidirectional
+			(at 63.5 38.1 0)
+			(uuid "328b14be-b87f-4e53-80b1-aa17c1e7075c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -265,7 +305,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 101.6)
+		(at 78.74 152.4)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -281,7 +321,7 @@
 		)
 		(uuid "81224984-5643-4c36-ac79-8e44b8e923a5")
 		(property "Sheetname" "PWM and IO"
-			(at 101.6 100.8884 0)
+			(at 78.74 151.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -290,7 +330,7 @@
 			)
 		)
 		(property "Sheetfile" "IO.kicad_sch"
-			(at 101.6 127.5846 0)
+			(at 78.74 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,13 +347,12 @@
 		)
 	)
 	(sheet
-		(at 139.7 63.5)
-		(size 25.4 25.4)
+		(at 76.2 50.8)
+		(size 63.5 88.9)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -323,7 +362,7 @@
 		)
 		(uuid "afb454cc-1c16-4ce4-9f1e-961c69cee3bb")
 		(property "Sheetname" "SoC"
-			(at 139.7 62.7884 0)
+			(at 76.2 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -332,12 +371,22 @@
 			)
 		)
 		(property "Sheetfile" "SoC.kicad_sch"
-			(at 139.7 89.4846 0)
+			(at 76.2 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{USB_DATA}" bidirectional
+			(at 76.2 63.5 180)
+			(uuid "cb5c6ffc-7a93-45bb-a5ab-b9b58b9a2d81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -349,7 +398,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 63.5)
+		(at 160.02 60.96)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -365,7 +414,7 @@
 		)
 		(uuid "ba230dfb-0557-4ab9-8852-5cafebe5e88a")
 		(property "Sheetname" "Sensors"
-			(at 177.8 62.7884 0)
+			(at 160.02 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -374,7 +423,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 177.8 89.4846 0)
+			(at 160.02 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,7 +440,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 63.5)
+		(at 94.615 19.05)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -407,7 +456,7 @@
 		)
 		(uuid "d2a1748e-3635-4fe2-b773-933130d84b1b")
 		(property "Sheetname" "Power & Battery Management"
-			(at 101.6 62.7884 0)
+			(at 94.615 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,7 +465,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 101.6 89.4846 0)
+			(at 94.615 45.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
