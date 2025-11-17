@@ -1,0 +1,3 @@
+[submodule "Laika/lib/external/Milk-V-Duo-KiCad-Library"]
+	path = Laika/lib/external/Milk-V-Duo-KiCad-Library
+	url = git@github.com:AeybelV/Milk-V-Duo-KiCad-Library.git

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LaikaPower")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/LaikaPower.kicad_sym")(options "")(descr ""))
+  (lib (name "MilkV_Duo")(type "KiCad")(uri "${KIPRJMOD}/lib/external/Milk-V-Duo-KiCad-Library/kicad/MilkV_Duo.kicad_sym")(options "")(descr ""))
+)
