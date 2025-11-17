@@ -2275,6 +2275,10 @@
 		(uuid "afe9e674-70a0-4c3b-ad70-609b78e3744c")
 	)
 	(no_connect
+		(at 166.37 143.51)
+		(uuid "b2237b34-43a5-4bd0-84f2-f3c2aa0efd5f")
+	)
+	(no_connect
 		(at 133.35 143.51)
 		(uuid "b2a4c901-b424-48a1-91f3-dc1f4090ace8")
 	)
@@ -2382,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 59.69) (xy 123.19 49.53)
+			(xy 123.19 59.69) (xy 123.19 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2462,7 +2466,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 49.53) (xy 125.73 49.53)
+			(xy 123.19 50.8) (xy 125.73 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2479,6 +2483,26 @@
 			(type default)
 		)
 		(uuid "8e126c7c-940f-4542-8329-14239a85f6eb")
+	)
+	(wire
+		(pts
+			(xy 88.9 58.42) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb27a4e1-5d49-4150-ad37-07f1f7a55ecc")
+	)
+	(wire
+		(pts
+			(xy 104.14 58.42) (xy 104.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98900fb-cfac-4bd3-860c-53b5bc2e48d9")
 	)
 	(wire
 		(pts
@@ -2512,7 +2536,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 59.69) (xy 104.14 59.69)
+			(xy 88.9 58.42) (xy 104.14 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2720,7 +2744,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 49.53 0)
+		(at 125.73 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2729,7 +2753,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cb598ef-2f9b-47ad-8986-5f28d10612b4")
 		(property "Reference" "#PWR017"
-			(at 125.73 55.88 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2762,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 54.61 0)
+			(at 125.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 49.53 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 49.53 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 49.53 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,6 +2855,33 @@
 			)
 		)
 		(property "Description" "The Duo Module 01 is a compact module with integrated SG2000, WI-FI6/BTDM5.4, and eMMC. It supports SMD mounting. Also it can greatly save product development time. It is the first choice for making products."
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" ""
 			(at 139.7 101.6 0)
 			(effects
 				(font
@@ -3117,7 +3168,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 59.69 0)
+		(at 88.9 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3126,7 +3177,7 @@
 		(fields_autoplaced yes)
 		(uuid "d46c1107-d150-4ef7-84d5-99fd1ec1f24c")
 		(property "Reference" "#PWR016"
-			(at 87.63 66.04 0)
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +3186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 64.77 0)
+			(at 88.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +3195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 59.69 0)
+			(at 88.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 59.69 0)
+			(at 88.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 59.69 0)
+			(at 88.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
