@@ -3348,7 +3348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "USBLC6-2SC6"
 			(at 106.68 76.2 0)
 			(effects
 				(font
@@ -3357,7 +3357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manafacturer" ""
+		(property "Manafacturer" "STMicroelectronics"
 			(at 106.68 76.2 0)
 			(effects
 				(font
