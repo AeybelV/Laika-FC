@@ -293,6 +293,16 @@
 		)
 		(uuid "528d1c5a-46d7-469b-a7b0-1951cc214ea2")
 	)
+	(bus
+		(pts
+			(xy 63.5 127) (xy 76.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb017f6-4413-4096-a32c-03bfdbdcef58")
+	)
 	(wire
 		(pts
 			(xy 127 29.21) (xy 139.7 29.21)
@@ -491,7 +501,7 @@
 			(color 212 212 199 1.0000)
 		)
 		(uuid "048b06c9-0bbe-42fb-958a-d8b2ea4b03dd")
-		(property "Sheetname" "Misc - Buttons and Buzzers"
+		(property "Sheetname" "Miscellaneous"
 			(at 38.1 113.5884 0)
 			(effects
 				(font
@@ -507,6 +517,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{MISC_SIG}" bidirectional
+			(at 63.5 127 0)
+			(uuid "047390f9-8427-410a-a015-110cf8c1379a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -825,6 +845,16 @@
 		(pin "{USB_DATA}" bidirectional
 			(at 76.2 63.5 180)
 			(uuid "cb5c6ffc-7a93-45bb-a5ab-b9b58b9a2d81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MISC_SIG}" bidirectional
+			(at 76.2 127 180)
+			(uuid "2db57f48-e18e-4d76-9dde-cea0d50dda9c")
 			(effects
 				(font
 					(size 1.27 1.27)
