@@ -263,6 +263,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus
+		(pts
+			(xy 149.86 50.8) (xy 160.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309ae749-41cf-4a78-8377-03fad42ed035")
+	)
 	(wire
 		(pts
 			(xy 63.5 25.4) (xy 96.52 25.4)
@@ -315,6 +325,16 @@
 	)
 	(bus
 		(pts
+			(xy 139.7 63.5) (xy 149.86 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83824ad6-44c8-4a60-85bf-f6da8828f6d5")
+	)
+	(bus
+		(pts
 			(xy 76.2 63.5) (xy 69.85 63.5)
 		)
 		(stroke
@@ -332,6 +352,16 @@
 			(type default)
 		)
 		(uuid "c1bc7d51-53e2-4a0e-b496-48dbfecd9d48")
+	)
+	(bus
+		(pts
+			(xy 149.86 63.5) (xy 149.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4be25b5-ddfb-482a-883f-5b6c287a9a76")
 	)
 	(wire
 		(pts
@@ -697,6 +727,16 @@
 				(justify left top)
 			)
 		)
+		(pin "{SD}" bidirectional
+			(at 160.02 50.8 180)
+			(uuid "64a0e2ad-8468-4e3c-beae-b109f9eee28e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Laika"
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960"
@@ -860,6 +900,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "{SD}" bidirectional
+			(at 139.7 63.5 0)
+			(uuid "cd407a88-5b89-43b2-872a-01eeab060abb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

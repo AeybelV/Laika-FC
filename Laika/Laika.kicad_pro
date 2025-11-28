@@ -307,7 +307,7 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "/*/VDD"
+        "pattern": "/*/VDD*"
       },
       {
         "netclass": "PWR",
@@ -324,6 +324,10 @@
       {
         "netclass": "PWR",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/*/PWR*"
       }
     ]
   },

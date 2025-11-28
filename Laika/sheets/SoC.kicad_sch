@@ -2039,10 +2039,6 @@
 		(uuid "d5fa59b5-443d-4247-a1fb-dbac7da4b23b")
 	)
 	(no_connect
-		(at 128.27 143.51)
-		(uuid "01b9f203-00db-4092-bfbd-f93cc27f2bc2")
-	)
-	(no_connect
 		(at 97.79 115.57)
 		(uuid "02cd7058-b6bf-4781-8b8c-d9ce066fc4ef")
 	)
@@ -2370,6 +2366,15 @@
 		(uuid "7d1343c6-6a0b-4028-ac88-3fc83a77af39")
 	)
 	(bus_entry
+		(at 38.1 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f57b10b-c727-4630-9f2d-9c9b0c9d6040")
+	)
+	(bus_entry
 		(at 38.1 93.98)
 		(size -2.54 2.54)
 		(stroke
@@ -2424,6 +2429,16 @@
 			(type default)
 		)
 		(uuid "0373e93e-c02d-4714-9144-63d1d0637f1e")
+	)
+	(wire
+		(pts
+			(xy 128.27 152.4) (xy 128.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1979ec89-c0bd-4223-9f49-c27dc638ab34")
 	)
 	(wire
 		(pts
@@ -2484,6 +2499,16 @@
 			(type default)
 		)
 		(uuid "484ffa21-15f1-4a9d-9acc-0ffede5ac7f9")
+	)
+	(wire
+		(pts
+			(xy 25.4 116.84) (xy 35.56 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48891234-9959-4f3e-9c1e-f4a192e232ca")
 	)
 	(wire
 		(pts
@@ -2675,6 +2700,16 @@
 		)
 		(uuid "cb719295-5091-43fa-8d47-1b02a4c8abb1")
 	)
+	(bus
+		(pts
+			(xy 43.18 114.3) (xy 38.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd60c190-818e-40a6-9fe0-9d9259bf6c23")
+	)
 	(wire
 		(pts
 			(xy 92.71 90.17) (xy 97.79 90.17)
@@ -2714,6 +2749,16 @@
 			(type default)
 		)
 		(uuid "f1d113e7-a066-4bcb-8945-5639e3f4684b")
+	)
+	(bus
+		(pts
+			(xy 38.1 114.3) (xy 38.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a350da-51ea-45c8-ab56-c939da8e7768")
 	)
 	(wire
 		(pts
@@ -2774,6 +2819,16 @@
 			(justify left bottom)
 		)
 		(uuid "4c6a0641-80f5-4459-a279-e8e1f2f232b5")
+	)
+	(label "SD_PWR_EN"
+		(at 128.27 152.4 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "558e9b12-581a-4ab1-9861-6c415e9570ed")
 	)
 	(label "USB_DM"
 		(at 190.5 77.47 0)
@@ -2879,6 +2934,16 @@
 		)
 		(uuid "b7529558-2fe8-45d1-a98c-0af65317a76c")
 	)
+	(label "SD_PWR_EN"
+		(at 25.4 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cee85372-e356-4fa4-be64-e1476a706d16")
+	)
 	(label "USER_LED"
 		(at 161.29 152.4 270)
 		(effects
@@ -2910,6 +2975,17 @@
 			(justify left)
 		)
 		(uuid "2754182c-6a34-41a5-9681-7c160f303256")
+	)
+	(hierarchical_label "{SD}"
+		(shape bidirectional)
+		(at 43.18 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45eb3fb0-6edf-416e-b1cd-324305a4ca7a")
 	)
 	(symbol
 		(lib_id "power:GND")
