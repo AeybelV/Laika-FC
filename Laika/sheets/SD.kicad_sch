@@ -1839,6 +1839,18 @@
 		)
 		(uuid "26fcc10f-6b7a-428a-b6cf-645699322739")
 	)
+	(text "SD Card"
+		(exclude_from_sim no)
+		(at 141.478 25.4 0)
+		(effects
+			(font
+				(size 6.5024 6.5024)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "4864310e-b8d1-4640-bc26-cb154add6e89")
+	)
 	(text "To boot from SD card, add a jumper between\nSD power (VDD_SD) and +3V3.\n\nTo use SD card for user purposes, (boot from eMMC)\nconnect it to PWR_SD_SW"
 		(exclude_from_sim no)
 		(at 26.162 132.08 0)
@@ -3147,7 +3159,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "14bfbdac-1bc2-4cbc-adb7-07c7cc0eb2f0")
 		(property "Reference" "R21"
 			(at 177.8 81.534 90)
