@@ -2267,10 +2267,6 @@
 		(uuid "afe9e674-70a0-4c3b-ad70-609b78e3744c")
 	)
 	(no_connect
-		(at 166.37 143.51)
-		(uuid "b2237b34-43a5-4bd0-84f2-f3c2aa0efd5f")
-	)
-	(no_connect
 		(at 133.35 143.51)
 		(uuid "b2a4c901-b424-48a1-91f3-dc1f4090ace8")
 	)
@@ -2618,6 +2614,16 @@
 			(type default)
 		)
 		(uuid "b224077f-ad48-4edf-ae9d-df84d6c427f6")
+	)
+	(wire
+		(pts
+			(xy 166.37 143.51) (xy 185.42 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "badf4fee-af12-4b10-a41d-825bfc8758f8")
 	)
 	(wire
 		(pts
@@ -3458,6 +3464,72 @@
 			(project ""
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/afb454cc-1c16-4ce4-9f1e-961c69cee3bb"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 185.42 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d42e3015-9439-4158-bc6f-45f7d6636ac9")
+		(property "Reference" "#PWR043"
+			(at 185.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 185.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29decb8b-cf3e-4561-abc4-624e15486d50")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/afb454cc-1c16-4ce4-9f1e-961c69cee3bb"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
