@@ -12,6 +12,371 @@
 		(comment 1 "${VARIANT}")
 	)
 	(lib_symbols
+		(symbol "Connector:Micro_SD_Card_Det1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -16.51 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Micro_SD_Card_Det1"
+				(at 16.51 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 52.07 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micro SD Card Socket with one card detection pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector SD microsd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "microSD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Micro_SD_Card_Det1_0_1"
+				(polyline
+					(pts
+						(xy -8.89 -8.89) (xy -8.89 11.43) (xy -1.27 11.43) (xy 2.54 15.24) (xy 3.81 15.24) (xy 3.81 13.97)
+						(xy 6.35 13.97) (xy 7.62 15.24) (xy 20.32 15.24) (xy 20.32 -8.89) (xy -8.89 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 10.795)
+					(end -5.08 9.525)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 8.255)
+					(end -5.08 6.985)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 5.715)
+					(end -5.08 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 3.175)
+					(end -5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 0.635)
+					(end -5.08 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.905)
+					(end -5.08 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -4.445)
+					(end -5.08 -5.715)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -6.985)
+					(end -5.08 -8.255)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 15.24) (xy 16.51 16.51) (xy -19.05 16.51) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_Det1_1_1"
+				(pin bidirectional line
+					(at -22.86 10.16 0)
+					(length 3.81)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 7.62 0)
+					(length 3.81)
+					(name "DAT3/CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 5.08 0)
+					(length 3.81)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 2.54 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 0 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -2.54 0)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 3.81)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -12.7 0)
+					(length 3.81)
+					(name "DET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -12.7 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -305,6 +670,156 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1158,9 +1673,124 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(bus_alias "SD"
-		(members "SD_PWR_EN")
+		(members "SD_PWR_EN" "SD_SD0_D0" "SD_SD0_D1" "SD_SD0_D2" "SD_SD0_D3" "SD_SD0_CMD"
+			"SD_SD0_CLK" "SD_SD0_CD"
+		)
+	)
+	(rectangle
+		(start 152.4 127)
+		(end 266.7 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6c521c56-a81b-44b1-93b8-acce082d81ec)
 	)
 	(rectangle
 		(start 25.4 50.8)
@@ -1185,6 +1815,18 @@
 			(type none)
 		)
 		(uuid d0ee62a6-70e9-433f-a059-6209843da894)
+	)
+	(rectangle
+		(start 152.4 50.8)
+		(end 266.7 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f4ea292e-3fe1-4e93-8562-673ec4bd05b3)
 	)
 	(text "R19: Strong pulldown to GND\nR20: Weak pullup to 3V3."
 		(exclude_from_sim no)
@@ -1244,6 +1886,25 @@
 		)
 		(uuid "9bbe2dbf-7295-4b75-b06a-579a99624f22")
 	)
+	(text "SD Card"
+		(exclude_from_sim no)
+		(at 152.4 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7e9e09e-b802-4693-892b-8d859bc875f7")
+	)
+	(junction
+		(at 210.82 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00e8d598-e0f5-42e6-8e73-3af61543db77")
+	)
 	(junction
 		(at 88.9 76.2)
 		(diameter 0)
@@ -1251,19 +1912,142 @@
 		(uuid "0cb41b68-5a6e-4225-b128-fa534171d716")
 	)
 	(junction
+		(at 109.22 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32f107ad-d51e-4773-afd0-c6b113001c3f")
+	)
+	(junction
+		(at 173.99 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37714dd6-1e22-4723-b031-b6076e1bd2c1")
+	)
+	(junction
+		(at 200.66 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49716cb8-1f6a-47b5-a404-f72c54739036")
+	)
+	(junction
+		(at 215.9 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d46f11e-7b24-477b-b987-9ba41c8eef86")
+	)
+	(junction
+		(at 167.64 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c4413d1-10a9-4583-910e-5487ff092dd7")
+	)
+	(junction
+		(at 195.58 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ac65e35-9edd-4182-b062-792182188ac0")
+	)
+	(junction
 		(at 88.9 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ddf4b07-e130-4101-b785-ab4564359570")
 	)
+	(junction
+		(at 185.42 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2c824f6-9dd7-4c82-83cd-3302e0edd2a0")
+	)
+	(junction
+		(at 190.5 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6c6e09e-3f61-4ecf-aeac-8bc257aefaa4")
+	)
+	(junction
+		(at 205.74 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebd5b339-fb17-4570-9f8b-b855e5f7e18b")
+	)
+	(junction
+		(at 68.58 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f02f078d-3488-4874-90c2-62810cc56e4f")
+	)
 	(bus_entry
-		(at 177.8 114.3)
+		(at 212.09 151.13)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4c8885-28bf-45b1-baa6-a22516e8f9a5")
+	)
+	(bus_entry
+		(at 212.09 140.97)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb24f55-1a50-489d-a245-964e1046bf84")
+	)
+	(bus_entry
+		(at 212.09 148.59)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549c9d69-f119-4674-91ef-793dc2631016")
+	)
+	(bus_entry
+		(at 212.09 153.67)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80185e58-07af-471f-a0fd-b89f860cc8fa")
+	)
+	(bus_entry
+		(at 212.09 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53f2c45-a71b-4736-8871-5bb196442767")
+	)
+	(bus_entry
+		(at 212.09 135.89)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab4a416b-e298-45b7-8cad-7bd0b2a979dd")
+	)
+	(bus_entry
+		(at 212.09 138.43)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0d6fc6-5de2-404d-a042-6dbc9a95f9dd")
+	)
+	(bus_entry
+		(at 212.09 146.05)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9df1ea-62a3-4e26-b717-9ef7e52d3768")
 	)
 	(wire
 		(pts
@@ -1277,7 +2061,57 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 114.3) (xy 177.8 114.3)
+			(xy 212.09 143.51) (xy 212.09 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ae6463-de33-456c-969c-521e6a1efdeb")
+	)
+	(wire
+		(pts
+			(xy 199.39 140.97) (xy 209.55 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed010b9-b1ff-4cfe-9a5e-997982c3c607")
+	)
+	(bus
+		(pts
+			(xy 212.09 146.05) (xy 212.09 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b4a539-38cd-431d-8f38-71a09026902b")
+	)
+	(wire
+		(pts
+			(xy 200.66 82.55) (xy 200.66 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110594fe-825f-4353-b126-6e1398738298")
+	)
+	(wire
+		(pts
+			(xy 195.58 87.63) (xy 220.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "144106fe-bf2f-436d-86f2-026424bfff87")
+	)
+	(bus
+		(pts
+			(xy 217.17 135.89) (xy 212.09 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1297,6 +2131,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 147.32) (xy 82.55 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df15087-e0d6-4df0-9be8-f6b7b59d5e51")
+	)
+	(wire
+		(pts
 			(xy 101.6 76.2) (xy 88.9 76.2)
 		)
 		(stroke
@@ -1307,13 +2151,33 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 149.86) (xy 82.55 149.86)
+			(xy 199.39 156.21) (xy 209.55 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23830f9c-2851-405e-8bcf-cda02aaba5de")
+	)
+	(wire
+		(pts
+			(xy 63.5 149.86) (xy 82.55 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "29fc041f-788f-498a-803e-756e9cae53fe")
+	)
+	(wire
+		(pts
+			(xy 173.99 80.01) (xy 220.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1a8785-48db-4b65-9269-7498a903d0b4")
 	)
 	(wire
 		(pts
@@ -1327,6 +2191,36 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 82.55) (xy 200.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d35a955-5535-4feb-9fef-d8d70ac195c3")
+	)
+	(wire
+		(pts
+			(xy 215.9 72.39) (xy 220.98 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e019b59-449b-468e-96d3-f7483d79b2dd")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 165.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3616dc27-b0c5-47f0-a07c-c0d886141482")
+	)
+	(wire
+		(pts
 			(xy 114.3 88.9) (xy 114.3 91.44)
 		)
 		(stroke
@@ -1334,6 +2228,86 @@
 			(type default)
 		)
 		(uuid "36ec611a-c210-4b80-a200-cf0219fb5850")
+	)
+	(wire
+		(pts
+			(xy 205.74 105.41) (xy 205.74 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0472fe-8ed1-41dd-91fa-8320095e3525")
+	)
+	(wire
+		(pts
+			(xy 167.64 107.95) (xy 167.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439d32de-1a3e-4c40-8821-2d4ceb0ea7e0")
+	)
+	(wire
+		(pts
+			(xy 199.39 143.51) (xy 209.55 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4591f91e-9bf8-4096-bb2d-3913531bd588")
+	)
+	(wire
+		(pts
+			(xy 199.39 151.13) (xy 209.55 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4677927f-78bb-45f1-9437-34e2e2979aa2")
+	)
+	(wire
+		(pts
+			(xy 165.1 90.17) (xy 190.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a13b9c-3b9c-42a5-819f-4564d46be961")
+	)
+	(wire
+		(pts
+			(xy 165.1 95.25) (xy 185.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67327523-68f4-48ba-a1b6-d909d29977f9")
+	)
+	(wire
+		(pts
+			(xy 185.42 95.25) (xy 185.42 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a52dc72-7b64-4064-a1a1-33567e4c6af8")
+	)
+	(wire
+		(pts
+			(xy 185.42 95.25) (xy 220.98 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa0cd4e-bb59-4d8e-8da2-e545d2870046")
 	)
 	(wire
 		(pts
@@ -1367,6 +2341,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 90.17) (xy 190.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e62e9b-82a0-4117-aef3-4324b5f0228f")
+	)
+	(wire
+		(pts
 			(xy 63.5 63.5) (xy 88.9 63.5)
 		)
 		(stroke
@@ -1377,7 +2361,127 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 116.84) (xy 175.26 116.84)
+			(xy 205.74 77.47) (xy 220.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a491977-e31b-4e52-9c7c-11e1be01847f")
+	)
+	(wire
+		(pts
+			(xy 173.99 107.95) (xy 173.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbe5398-c22a-4187-b1a0-97a097c03753")
+	)
+	(wire
+		(pts
+			(xy 215.9 72.39) (xy 215.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef3aff1-cced-45ee-85a3-2ef9235cc873")
+	)
+	(wire
+		(pts
+			(xy 185.42 107.95) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f62b273-9dd1-4238-aa36-ab9ea501fc69")
+	)
+	(wire
+		(pts
+			(xy 215.9 105.41) (xy 215.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83820b11-465d-4525-a7d8-045c246da86d")
+	)
+	(wire
+		(pts
+			(xy 190.5 105.41) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f07385-5727-45a9-8f7e-1b5846c76831")
+	)
+	(wire
+		(pts
+			(xy 167.64 99.06) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88bc3533-73f2-4008-8d5d-ce9afd8bad4b")
+	)
+	(bus
+		(pts
+			(xy 212.09 153.67) (xy 212.09 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6e04b5-d597-4655-8963-261cbff5b7d0")
+	)
+	(bus
+		(pts
+			(xy 212.09 148.59) (xy 212.09 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9c8957-71e3-4e35-aa1b-506366379a48")
+	)
+	(wire
+		(pts
+			(xy 165.1 87.63) (xy 195.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927a0c34-94ec-4d22-8b6d-b5f7c0232c48")
+	)
+	(wire
+		(pts
+			(xy 218.44 85.09) (xy 220.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981c7e30-fc43-46df-b167-843b42d59d64")
+	)
+	(bus
+		(pts
+			(xy 212.09 140.97) (xy 212.09 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988a767b-273c-475f-93fc-1a92f9d68b5b")
+	)
+	(wire
+		(pts
+			(xy 199.39 138.43) (xy 209.55 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1387,7 +2491,37 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 114.3 88.9)
+			(xy 200.66 82.55) (xy 220.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc9b627-da9a-4acf-8e74-371c609159cc")
+	)
+	(wire
+		(pts
+			(xy 165.1 77.47) (xy 205.74 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec4a0fa-dde5-42db-8b86-6c1ab209f355")
+	)
+	(bus
+		(pts
+			(xy 212.09 138.43) (xy 212.09 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f405d3f-e3f5-40c0-868f-e429a3545f41")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 109.22 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1397,7 +2531,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 147.32) (xy 82.55 147.32)
+			(xy 63.5 147.32) (xy 68.58 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1405,15 +2539,45 @@
 		)
 		(uuid "a49fe988-e198-405f-b4d4-dd0e4c2e12e0")
 	)
+	(wire
+		(pts
+			(xy 165.1 74.93) (xy 210.82 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b293d6-0d06-4fcf-bef4-2b646efad28b")
+	)
 	(bus
 		(pts
-			(xy 177.8 114.3) (xy 177.8 127)
+			(xy 212.09 151.13) (xy 212.09 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6011033-7cbe-481b-874a-20f18dae90cf")
+	)
+	(bus
+		(pts
+			(xy 212.09 135.89) (xy 212.09 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b943f5a5-af1c-4e9b-ab97-3de371af0ee9")
+	)
+	(wire
+		(pts
+			(xy 199.39 146.05) (xy 209.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba080df2-3eb4-45b8-893d-ead173fd53c7")
 	)
 	(wire
 		(pts
@@ -1427,6 +2591,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 72.39) (xy 215.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0aa7e9-9d7e-4108-8486-228d22ebc6f9")
+	)
+	(wire
+		(pts
+			(xy 109.22 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6c709f-5d3a-483c-b55d-aa94eeaba013")
+	)
+	(wire
+		(pts
 			(xy 76.2 88.9) (xy 88.9 88.9)
 		)
 		(stroke
@@ -1434,6 +2618,26 @@
 			(type default)
 		)
 		(uuid "c4504604-d491-454d-b3b3-5d2740a7e8e0")
+	)
+	(wire
+		(pts
+			(xy 200.66 105.41) (xy 200.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f5031c-bbe6-4369-81e7-6b13ba366597")
+	)
+	(wire
+		(pts
+			(xy 195.58 87.63) (xy 195.58 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73fe140-b7e0-46a0-acd4-1795e23e4df5")
 	)
 	(wire
 		(pts
@@ -1457,6 +2661,76 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 105.41) (xy 210.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06c1088-c5ce-4432-8ff0-1b93cfcefae6")
+	)
+	(wire
+		(pts
+			(xy 195.58 105.41) (xy 195.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e070fea1-ea36-4a27-9462-a4e3d134667d")
+	)
+	(wire
+		(pts
+			(xy 165.1 82.55) (xy 179.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64cc951-4e5b-4553-85c8-1045e22a97d2")
+	)
+	(wire
+		(pts
+			(xy 210.82 74.93) (xy 210.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b92b6b-e946-4af5-b8b2-106cf2337f75")
+	)
+	(wire
+		(pts
+			(xy 190.5 90.17) (xy 220.98 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0481d2b-1c74-4146-acec-71d625b59953")
+	)
+	(wire
+		(pts
+			(xy 205.74 77.47) (xy 205.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f19ac487-2db3-4f3d-9808-e0e657268e2f")
+	)
+	(wire
+		(pts
+			(xy 173.99 99.06) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38c74fa-3b01-40fa-87ba-a0ca6178ec18")
+	)
+	(wire
+		(pts
 			(xy 38.1 81.28) (xy 48.26 81.28)
 		)
 		(stroke
@@ -1465,8 +2739,68 @@
 		)
 		(uuid "f4c42ba0-bacd-4247-90da-75fcc1d1e3f5")
 	)
+	(wire
+		(pts
+			(xy 199.39 148.59) (xy 209.55 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f501d8e3-a432-40fe-998d-2fb20353b578")
+	)
+	(wire
+		(pts
+			(xy 210.82 74.93) (xy 220.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f720d79e-ad65-4d47-bd52-cb4894eb777d")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c19965-c531-460c-be32-f34e1283956e")
+	)
+	(wire
+		(pts
+			(xy 199.39 153.67) (xy 209.55 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd075178-1fa7-4106-8635-a023af78656c")
+	)
+	(label "SD_SD0_D0"
+		(at 165.1 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03263ad0-d255-43c8-9676-971238f0d28b")
+	)
+	(label "SD_SD0_CMD"
+		(at 199.39 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a1ea31f-8575-4cbd-be44-45002c12e9cc")
+	)
 	(label "VDD_SD"
-		(at 74.93 147.32 180)
+		(at 63.5 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1475,8 +2809,18 @@
 		)
 		(uuid "15b945e6-8c02-491a-9235-e833566fc3ff")
 	)
+	(label "VDD_SD"
+		(at 165.1 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d1e71da-12b3-438a-8b26-8dd89b4c1525")
+	)
 	(label "PWR_SD_SW"
-		(at 74.93 149.86 180)
+		(at 63.5 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1485,8 +2829,18 @@
 		)
 		(uuid "373dd84c-712b-4032-ac80-374521aec006")
 	)
+	(label "SD_SD0_D0"
+		(at 199.39 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "528bb185-7cd0-4326-9753-15805ab30163")
+	)
 	(label "SD_PWR_EN"
-		(at 165.1 116.84 0)
+		(at 199.39 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1494,6 +2848,26 @@
 			(justify left bottom)
 		)
 		(uuid "61a007ba-2d30-4df0-b321-47485b568cb1")
+	)
+	(label "SD_SD0_D3"
+		(at 199.39 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73ca8ee6-10a3-4e8e-8ed8-f23c2d4c884c")
+	)
+	(label "SD_SD0_CLK"
+		(at 199.39 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83308730-92aa-4f9c-8cde-4dcd55cf03c0")
 	)
 	(label "SD_PWR_EN"
 		(at 38.1 81.28 180)
@@ -1505,6 +2879,36 @@
 		)
 		(uuid "8b804e48-ace2-4336-8fdd-2c13dcb32b1e")
 	)
+	(label "SD_SD0_D2"
+		(at 165.1 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8dc4bac7-e850-44cb-9c9a-a6ac8bed2ff3")
+	)
+	(label "SD_SD0_CD"
+		(at 165.1 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab45b0d0-b291-4bba-aaa5-4d059f73f249")
+	)
+	(label "SD_SD0_CLK"
+		(at 165.1 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad68d350-8831-47a9-b82e-5a1c3fe73c9f")
+	)
 	(label "PWR_SD_SW"
 		(at 114.3 88.9 0)
 		(effects
@@ -1514,6 +2918,16 @@
 			(justify left bottom)
 		)
 		(uuid "b190ff95-fc0b-41a7-81ba-64354f319f5f")
+	)
+	(label "SD_SD0_CD"
+		(at 199.39 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd322975-18d6-4d4d-b165-f548f2e9f85f")
 	)
 	(label "SD_PWR_FET_GATE"
 		(at 88.9 76.2 180)
@@ -1525,9 +2939,59 @@
 		)
 		(uuid "be2252e1-2919-463d-851c-bc57214428ae")
 	)
+	(label "SD_SD0_CMD"
+		(at 165.1 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d170ede5-62a1-4451-a4f6-367dfcf52df7")
+	)
+	(label "SD_SD0_D3"
+		(at 165.1 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6929b1c-ea11-4114-a7e8-12eba9617d5d")
+	)
+	(label "SD_SD0_D1"
+		(at 165.1 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6da9039-e5e0-41a5-9431-452f76587eb3")
+	)
+	(label "SD_SD0_D1"
+		(at 199.39 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc3f850a-c1d8-4197-9ca3-b21c7ebee143")
+	)
+	(label "SD_SD0_D2"
+		(at 199.39 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4c4f240-d79e-4660-9546-e62238702756")
+	)
 	(hierarchical_label "{SD}"
 		(shape bidirectional)
-		(at 182.88 114.3 0)
+		(at 217.17 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1610,6 +3074,342 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a74c6b7-c4ef-449f-bcc6-d6463fb23d8a")
+		(property "Reference" "#PWR049"
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f6f26db-50c2-43cb-8ba6-92a02f6662a8")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14bfbdac-1bc2-4cbc-adb7-07c7cc0eb2f0")
+		(property "Reference" "R21"
+			(at 177.8 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 188.976 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d96d2a7-775b-40ca-bf1c-c9fea63ed829")
+		)
+		(pin "1"
+			(uuid "bfe51b9d-56f1-4050-a881-ab4ce0d93ce7")
+		)
+		(instances
+			(project ""
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "166a7162-7f64-4b3d-b9e8-2856d56c13db")
+		(property "Reference" "#PWR048"
+			(at 264.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17282ebc-1ea3-4be2-9147-e9747b3388a2")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 205.74 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19ccfebe-343d-4514-a288-0d322a25e629")
+		(property "Reference" "D11"
+			(at 206.248 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 203.962 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 205.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c4429cd-51c9-4887-adde-61403cc0e9da")
+		)
+		(pin "2"
+			(uuid "f2121832-75e1-4ce3-b3d1-64399b24d448")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 109.22 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a2301f9-f040-4878-bbc6-28419e0cb919")
+		(property "Reference" "#FLG06"
+			(at 109.22 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78c8a598-0811-401f-9434-134470df94a8")
+		)
+		(instances
+			(project ""
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 52.07 81.28 90)
 		(unit 1)
@@ -1672,6 +3472,75 @@
 			(project ""
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ef47195-e635-4f2b-8e9e-bc6109b4bdd5")
+		(property "Reference" "C11"
+			(at 168.402 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 168.402 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.6052 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7a50d0f-1c52-4a71-8d77-8bdfa36f7883")
+		)
+		(pin "2"
+			(uuid "50da059b-d88f-412c-9d6a-92d8b8cfded6")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1818,6 +3687,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 185.42 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4def839d-9264-4f2e-8b25-09b42d621387")
+		(property "Reference" "D15"
+			(at 185.928 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 183.642 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7da781d-0c3a-4208-8e0d-9036e8c0c034")
+		)
+		(pin "2"
+			(uuid "f9d68024-79e4-4d5a-a977-f11a62239d39")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 114.3 95.25 0)
 		(unit 1)
@@ -1888,6 +3826,209 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 185.42 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62db66d4-03e6-4e77-9c43-d5325cc1c2a4")
+		(property "Reference" "#PWR052"
+			(at 185.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfab3439-2069-4980-9455-4353e3edfce0")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 215.9 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6aa424b4-ae95-4c2c-8027-e843fd6ccb04")
+		(property "Reference" "D9"
+			(at 216.408 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 214.122 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 215.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1de5a028-0a92-4862-aada-9aee9b729da3")
+		)
+		(pin "2"
+			(uuid "02d50efc-bafa-4c70-91e2-4b90375db70f")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ff7bb4f-ed7e-454a-b77f-069ea8e1d58f")
+		(property "Reference" "#PWR051"
+			(at 173.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b1bd256-6cc3-47ba-baa7-9270664d7432")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 76.2 88.9 0)
 		(unit 1)
@@ -1948,6 +4089,367 @@
 			(project ""
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "723e17cf-a175-4184-9e76-94108b66970b")
+		(property "Reference" "#PWR056"
+			(at 210.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f56ba77d-6742-4735-bcd2-d19b2dceb825")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Micro_SD_Card_Det1")
+		(at 243.84 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c3f156a-1525-4e54-9305-b14f5ca2a7d1")
+		(property "Reference" "J5"
+			(at 244.475 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card"
+			(at 244.475 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+			(at 243.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro SD Card Socket with one card detection pin"
+			(at 243.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "06b40038-5ef9-4e98-b8b6-b67ba3f2a267")
+		)
+		(pin "1"
+			(uuid "b8819a2a-ffe5-4c4f-917a-d564905409c0")
+		)
+		(pin "6"
+			(uuid "3f5e8b69-2188-4774-ab8b-ba1836ffc805")
+		)
+		(pin "3"
+			(uuid "ed7c834d-e98f-4a9f-aa7c-c26a5d0d38a4")
+		)
+		(pin "2"
+			(uuid "c73625e7-3de1-47c6-b934-24e4f551ae74")
+		)
+		(pin "9"
+			(uuid "8d711cd4-e922-43c2-873d-b7bf0338a814")
+		)
+		(pin "5"
+			(uuid "ac58e2bd-5301-4080-99be-2aa57992b742")
+		)
+		(pin "4"
+			(uuid "176f6300-6a59-4237-aacf-295152b89f96")
+		)
+		(pin "7"
+			(uuid "39214736-3747-4252-aff6-8aae7c9165d1")
+		)
+		(pin "10"
+			(uuid "0caa63bb-564d-4a0a-8690-339eeaf1dca0")
+		)
+		(instances
+			(project ""
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8062f75e-2e91-4977-a49c-ffd2792f8b35")
+		(property "Reference" "#PWR050"
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "810d820a-7ee6-4d90-bcb2-38c4eb49f42e")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 68.58 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "912f2c59-5ba2-40c6-b2e9-1f4e1c30cf7b")
+		(property "Reference" "#FLG07"
+			(at 68.58 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d39581f-c122-4aaa-a4db-70427c492ac7")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 190.5 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "922b6a4d-d1a9-4d37-b6cd-6d597fa583db")
+		(property "Reference" "D14"
+			(at 191.008 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 188.722 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80603352-3666-44a3-a440-7470fcd470e2")
+		)
+		(pin "2"
+			(uuid "74016455-da58-4c15-872b-3974ee1a8af3")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2025,6 +4527,276 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 195.58 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99235e35-304a-4022-b99d-431de7e9da1c")
+		(property "Reference" "#PWR053"
+			(at 195.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a478788-3934-4da8-8656-6a86952494fe")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bd81669-855e-478a-844f-e6ff27ea0213")
+		(property "Reference" "#PWR057"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9fc133b-c186-4b60-9490-7ab6217cc7d7")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 195.58 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c050f43-cadc-456a-bbc3-0dbb8e5d193b")
+		(property "Reference" "D13"
+			(at 196.088 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 193.802 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 195.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "413aba19-04bc-4672-a8c1-dfd71ec4a201")
+		)
+		(pin "2"
+			(uuid "a56eb0a5-e3c8-454a-a05f-86a96c6454c1")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8ecea66-c60e-4d74-b607-a73f9d0a942f")
+		(property "Reference" "#PWR055"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06e04bc0-2a99-4a63-ad62-3615416d25bc")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 82.55 180)
 		(unit 1)
@@ -2095,6 +4867,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 190.5 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b094d110-1028-41e5-bede-44f2e6500920")
+		(property "Reference" "#PWR058"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb5a8185-3d1e-40ef-9b44-cc11f856a527")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 200.66 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1110c86-bee5-4416-a22b-c5e9de161bcb")
+		(property "Reference" "D12"
+			(at 201.168 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 198.882 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 200.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bf68cfe-bd57-43d4-b2b1-1f3c2b924188")
+		)
+		(pin "2"
+			(uuid "07a08bfc-ee8f-460b-9f77-4ca92bd8e31a")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 69.85 0)
 		(unit 1)
@@ -2159,6 +5067,75 @@
 			(project "Laika"
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 210.82 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c143e88e-ffca-4ff9-b885-8ca3a5bfdab6")
+		(property "Reference" "D10"
+			(at 211.328 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 209.042 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 210.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a11e0b5-a695-40be-90fa-5297c79d6c2d")
+		)
+		(pin "2"
+			(uuid "f3e82463-aec2-4924-a86c-ffb44eeed0a5")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2292,6 +5269,142 @@
 			(project "Laika"
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 173.99 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3aab1db-29f3-402e-a356-57df0871301f")
+		(property "Reference" "C12"
+			(at 175.006 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 175.006 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.9552 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 173.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fd8594b-0112-4e21-998f-b9bc2a26957a")
+		)
+		(pin "2"
+			(uuid "d5b17092-b55f-463a-85f2-536840b1363e")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb5f0207-419e-4fd6-88aa-9334eeb32be3")
+		(property "Reference" "#PWR054"
+			(at 200.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917a3f15-a04d-4b0d-83b4-e431f7ed2cd0")
+		)
+		(instances
+			(project "Laika"
+				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/5deeb5d8-4399-4e7b-98ae-5b0e234457ce"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
