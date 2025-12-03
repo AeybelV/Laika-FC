@@ -348,6 +348,10 @@
       {
         "netclass": "UART",
         "pattern": "/*/UART*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/*/LORA_*X"
       }
     ]
   },
