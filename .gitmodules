@@ -1,3 +1,6 @@
 [submodule "Laika/lib/external/Milk-V-Duo-KiCad-Library"]
 	path = Laika/lib/external/Milk-V-Duo-KiCad-Library
 	url = git@github.com:AeybelV/Milk-V-Duo-KiCad-Library.git
+[submodule "Laika/lib/external/Reyax-LoRa-Kicad-Library"]
+	path = Laika/lib/external/Reyax-LoRa-Kicad-Library
+	url = git@github.com:AeybelV/Reyax-LoRa-Kicad-Library.git
