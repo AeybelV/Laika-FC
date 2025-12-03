@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "LaikaPower")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/LaikaPower.kicad_sym")(options "")(descr ""))
   (lib (name "MilkV_Duo")(type "KiCad")(uri "${KIPRJMOD}/lib/external/Milk-V-Duo-KiCad-Library/kicad/MilkV_Duo.kicad_sym")(options "")(descr ""))
+  (lib (name "Reyax_LoRa")(type "KiCad")(uri "${KIPRJMOD}/lib/external/Reyax-LoRa-Kicad-Library/kicad/Reyax_LoRa.kicad_sym")(options "")(descr ""))
 )
