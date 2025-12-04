@@ -5,4 +5,5 @@
   (lib (name "Reyax_LoRa")(type "KiCad")(uri "${KIPRJMOD}/lib/external/Reyax-LoRa-Kicad-Library/kicad/Reyax_LoRa.kicad_sym")(options "")(descr ""))
   (lib (name "LaikaSensors")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/LaikaSensors.kicad_sym")(options "")(descr ""))
   (lib (name "BMP390L")(type "KiCad")(uri "${KIPRJMOD}/lib/external/BMP390/BMP390L.kicad_sym")(options "")(descr ""))
+  (lib (name "MMC5983MA")(type "KiCad")(uri "${KIPRJMOD}/lib/external/MMC5983MA/MMC5983MA.kicad_sym")(options "")(descr ""))
 )

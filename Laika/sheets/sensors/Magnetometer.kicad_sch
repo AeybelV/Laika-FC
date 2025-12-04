@@ -5,4 +5,41 @@
 	(uuid "26a17d74-b85d-4fc3-be10-15ac1da0c501")
 	(paper "A4")
 	(lib_symbols)
+	(rectangle
+		(start 76.2 50.8)
+		(end 203.2 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aca667cd-e61e-40e2-8ff9-bf079b075dd5)
+	)
+	(text "Magnetometer"
+		(exclude_from_sim no)
+		(at 139.7 25.4 0)
+		(effects
+			(font
+				(size 6.5024 6.5024)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3a84d84f-1949-483a-8852-70ab58a21b28")
+	)
+	(text "Magnetometer"
+		(exclude_from_sim no)
+		(at 76.2 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7041e1d4-47ac-4efb-a117-e8a37dd844a8")
+	)
 )
