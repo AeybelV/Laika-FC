@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "MilkV_Duo")(type "KiCad")(uri "${KIPRJMOD}/lib/external/Milk-V-Duo-KiCad-Library/kicad/MilkV_Duo.pretty")(options "")(descr ""))
   (lib (name "Reyax_LoRa")(type "KiCad")(uri "${KIPRJMOD}/lib/external/Reyax-LoRa-Kicad-Library/kicad/Reyax_LoRa.pretty")(options "")(descr ""))
+  (lib (name "BMP390")(type "KiCad")(uri "${KIPRJMOD}/lib/external/BMP390")(options "")(descr ""))
 )

@@ -1,0 +1,328 @@
+(footprint "XDCR_BMP390L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.234 -2.1532 0)
+		(layer "F.SilkS")
+		(uuid "b534dc5f-53de-4920-b154-e2e888d196bc")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "XDCR_BMP390L"
+		(at 1.1884 1.5532 0)
+		(layer "F.Fab")
+		(uuid "6d82cdfb-277e-4b86-944c-163f2a1ba238")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp390-ds002.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d5b2b07-d626-4c7a-ab2a-b0104585199f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "10-WFLGA "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "913ce617-f2c8-453b-aa93-ce5b8fafbd9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1)
+		(end -0.7075 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b3052cb-dd5f-491b-ac97-9368ac0b3c9e")
+	)
+	(fp_line
+		(start -1 -0.9575)
+		(end -1 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c76c1b8b-ed98-485d-8080-806de947f8b8")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 0.9575)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e3af48f-42ca-4358-8a1b-57ae1031d890")
+	)
+	(fp_line
+		(start -1 1)
+		(end -0.7075 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2824ebb8-2780-43d6-aed4-f9a4ecd2fb0a")
+	)
+	(fp_line
+		(start 0.7075 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9db865f5-5dcc-48a4-903e-3a6d865fe0ba")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 -0.9575)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84397c1d-7291-4f23-9a3f-c7391239b1ad")
+	)
+	(fp_line
+		(start 1 0.9575)
+		(end 1 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83ebbf9c-79d4-4730-9586-1eb482350639")
+	)
+	(fp_line
+		(start 1 1)
+		(end 0.7075 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed62351c-c881-49bb-9e6f-24b55af6bbeb")
+	)
+	(fp_circle
+		(center 0.25 -1.5875)
+		(end 0.35 -1.5875)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7010f7bd-927a-4c5e-925b-52eddf1f54cb")
+	)
+	(fp_line
+		(start -1.25 -1.25)
+		(end -1.25 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed9fe426-bdcc-4ac9-9e13-310a92796202")
+	)
+	(fp_line
+		(start -1.25 1.25)
+		(end 1.25 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed26b290-ad1a-4e2e-a836-f3898d00a578")
+	)
+	(fp_line
+		(start 1.25 -1.25)
+		(end -1.25 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e7dfb25-5427-4592-a892-bcb25208da29")
+	)
+	(fp_line
+		(start 1.25 1.25)
+		(end 1.25 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1ed2e7d-80d4-4ad6-b6f9-3021da7fd29f")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc04fdc8-dcfd-4eee-b0df-ad3e4b59f524")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76ddc9ac-ce4b-4eec-a61f-63a6c8667782")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f4b5320-f0e5-4fb1-9ea4-41a5a293009a")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17c82521-a244-4b11-946d-668c8b8bc380")
+	)
+	(fp_circle
+		(center 0.25 -1.5875)
+		(end 0.35 -1.5875)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "563e26c4-4e3a-4de5-9993-436306d5762f")
+	)
+	(fp_circle
+		(center 0.4 -0.4)
+		(end 0.525 -0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "30973b93-f4b8-4d36-b3bc-a68feffee786")
+	)
+	(pad "1" smd rect
+		(at 0.25 -0.7625)
+		(size 0.25 0.275)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c03b53d7-db33-42d3-ad89-92d0096f342f")
+	)
+	(pad "2" smd rect
+		(at -0.25 -0.7625)
+		(size 0.25 0.275)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b394a6cb-3dc5-43b3-8726-e8aae1d25e1e")
+	)
+	(pad "3" smd rect
+		(at -0.7625 -0.5)
+		(size 0.275 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1dcfa137-044f-4bb9-82a0-9064d4f3b897")
+	)
+	(pad "4" smd rect
+		(at -0.7625 0)
+		(size 0.275 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "01e17070-7024-4462-bd55-e51b63f99006")
+	)
+	(pad "5" smd rect
+		(at -0.7625 0.5)
+		(size 0.275 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "45d4567b-62a8-4313-bf46-07b7b4e84395")
+	)
+	(pad "6" smd rect
+		(at -0.25 0.7625)
+		(size 0.25 0.275)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d5d84f6f-be8a-4cdb-b72c-6feea5226a46")
+	)
+	(pad "7" smd rect
+		(at 0.25 0.7625)
+		(size 0.25 0.275)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "522541e9-9720-4bfe-be5e-7bd3fd2d0186")
+	)
+	(pad "8" smd rect
+		(at 0.7625 0.5)
+		(size 0.275 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "9e8b3992-a7d2-4104-9092-27eeab4952a8")
+	)
+	(pad "9" smd rect
+		(at 0.7625 0)
+		(size 0.275 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c2132eaa-be43-4354-8640-cb9954c15fa6")
+	)
+	(pad "10" smd rect
+		(at 0.7625 -0.5)
+		(size 0.275 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "f6cd8722-8bf2-4a75-8aef-1d4e71f637d3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/external/BMP390/BMP390L.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
