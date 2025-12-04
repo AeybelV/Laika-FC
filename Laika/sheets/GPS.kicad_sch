@@ -1588,6 +1588,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "GPS_DATA"
+		(members "GPS_TX" "GPS_RX" "GPS_PPS" "GPS_RESET")
+	)
 	(rectangle
 		(start 38.1 38.1)
 		(end 165.1 139.7)
@@ -1611,6 +1614,18 @@
 			(type none)
 		)
 		(uuid 8098dfc2-a7f6-4c51-b87f-c449b9443ea9)
+	)
+	(rectangle
+		(start 38.1 152.4)
+		(end 165.1 190.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b14c1eee-7b38-40ca-9713-f7ec80395be8)
 	)
 	(text "The M8Q is NRND. However it is plentiful in stock.\nThe chip is pin-compatible with the M10Q"
 		(exclude_from_sim no)
@@ -1714,6 +1729,42 @@
 		(at 114.3 93.98)
 		(uuid "e489c25d-21ac-4834-9c27-6b93b79cc9d3")
 	)
+	(bus_entry
+		(at 101.6 170.18)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc4f322-3e2c-4fd2-8ed1-7ce3612e6a17")
+	)
+	(bus_entry
+		(at 101.6 172.72)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f5d3ae-cdda-4373-99a9-98376bab3db6")
+	)
+	(bus_entry
+		(at 101.6 165.1)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b740da8-90d2-47aa-bf94-ab237c446dab")
+	)
+	(bus_entry
+		(at 101.6 167.64)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98822b47-5b93-47f3-a17e-d1319a37fe1e")
+	)
 	(wire
 		(pts
 			(xy 234.95 113.03) (xy 241.3 113.03)
@@ -1726,6 +1777,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 167.64) (xy 99.06 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087e99fa-a2d6-40ec-b1bc-7c8b3e4093e8")
+	)
+	(wire
+		(pts
 			(xy 101.6 114.3) (xy 101.6 101.6)
 		)
 		(stroke
@@ -1733,6 +1794,16 @@
 			(type default)
 		)
 		(uuid "1a336229-5fc9-4780-8fdc-d550e7c740f2")
+	)
+	(bus
+		(pts
+			(xy 101.6 167.64) (xy 101.6 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26be11ac-7ab5-4256-9bea-8e69da5fc99c")
 	)
 	(wire
 		(pts
@@ -1773,6 +1844,26 @@
 			(type default)
 		)
 		(uuid "312f4a62-c9c4-49ad-b151-1dfa9ac2fca1")
+	)
+	(bus
+		(pts
+			(xy 106.68 165.1) (xy 101.6 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34be5095-2766-4bb2-a34a-be6475b57006")
+	)
+	(bus
+		(pts
+			(xy 101.6 172.72) (xy 101.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff3bca7-9ab4-4e1f-9d63-f939983d994d")
 	)
 	(wire
 		(pts
@@ -1824,6 +1915,16 @@
 		)
 		(uuid "65a76ff5-94c7-4131-8709-eebe1be8de71")
 	)
+	(bus
+		(pts
+			(xy 101.6 165.1) (xy 101.6 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2e3df1-cb08-460a-a796-34ccf9e09444")
+	)
 	(wire
 		(pts
 			(xy 193.04 107.95) (xy 195.58 107.95)
@@ -1873,6 +1974,16 @@
 			(type default)
 		)
 		(uuid "93431554-4e73-411f-84d1-4926207b7848")
+	)
+	(wire
+		(pts
+			(xy 88.9 175.26) (xy 99.06 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953f8852-ce0a-4484-8b83-0e2590969d14")
 	)
 	(wire
 		(pts
@@ -1966,6 +2077,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 170.18) (xy 99.06 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1f7324-3931-422a-bd48-7d7d10ada590")
+	)
+	(wire
+		(pts
 			(xy 234.95 105.41) (xy 241.3 105.41)
 		)
 		(stroke
@@ -1973,6 +2094,16 @@
 			(type default)
 		)
 		(uuid "d201c03f-2d93-4360-a90e-43ab229851b2")
+	)
+	(bus
+		(pts
+			(xy 101.6 170.18) (xy 101.6 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c43028-8bca-4c19-a7a3-8eca71cf6c99")
 	)
 	(wire
 		(pts
@@ -1983,6 +2114,16 @@
 			(type default)
 		)
 		(uuid "daf1391d-0615-44c1-94c8-0ca9fa04890e")
+	)
+	(wire
+		(pts
+			(xy 88.9 172.72) (xy 99.06 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3a36ea-0f72-422d-91e7-f3936c5ec79a")
 	)
 	(wire
 		(pts
@@ -2074,6 +2215,16 @@
 		)
 		(uuid "354edcbc-3e4b-4193-a632-ac97b4589844")
 	)
+	(label "GPS_PPS"
+		(at 88.9 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bd2688c-3571-4163-ac46-fa5b97ccf8c3")
+	)
 	(label "EXT_GPS_TX"
 		(at 208.28 57.15 0)
 		(effects
@@ -2083,6 +2234,26 @@
 			(justify left bottom)
 		)
 		(uuid "40f0a40e-2f80-4a4f-b32e-98f626588e12")
+	)
+	(label "GPS_TX"
+		(at 88.9 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4763f39d-87bf-4456-aead-a1525a018006")
+	)
+	(label "GPS_RESET"
+		(at 88.9 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f89943c-dc99-4bb7-99a3-d2e82b68b8a5")
 	)
 	(label "EXT_GPS_RX"
 		(at 208.28 82.55 0)
@@ -2164,6 +2335,16 @@
 		)
 		(uuid "87c65153-d51e-4b4d-aa4c-4f8b0bceebff")
 	)
+	(label "GPS_RX"
+		(at 88.9 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab02a75a-25ce-4768-aad7-3e00a5027652")
+	)
 	(label "EXT_GPS_RX"
 		(at 234.95 107.95 180)
 		(effects
@@ -2223,6 +2404,17 @@
 			(justify left bottom)
 		)
 		(uuid "f9a34ad0-0716-4d03-b23a-aea56af7c7b5")
+	)
+	(hierarchical_label "{GPS_DATA}"
+		(shape bidirectional)
+		(at 106.68 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db216ab4-385c-4077-8257-f8eedc280f44")
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")

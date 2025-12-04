@@ -373,6 +373,16 @@
 		)
 		(uuid "c4be25b5-ddfb-482a-883f-5b6c287a9a76")
 	)
+	(bus
+		(pts
+			(xy 139.7 101.6) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6384193-f085-4889-8bf4-9379078518de")
+	)
 	(wire
 		(pts
 			(xy 139.7 21.59) (xy 139.7 29.21)
@@ -651,6 +661,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{GPS_DATA}" bidirectional
+			(at 160.02 101.6 180)
+			(uuid "d945e393-3b00-4c0c-8253-ce9129436ffa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -935,6 +955,16 @@
 		(pin "{LORA_BUS}" bidirectional
 			(at 139.7 127 0)
 			(uuid "c7443b3e-a393-40ff-a93b-310bba71177f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{GPS_DATA}" bidirectional
+			(at 139.7 101.6 0)
+			(uuid "04e1b140-fbf8-48ed-8c78-4eca0e742690")
 			(effects
 				(font
 					(size 1.27 1.27)
