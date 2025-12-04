@@ -352,6 +352,10 @@
       {
         "netclass": "UART",
         "pattern": "/*/LORA_*X"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/*/GPS_*X"
       }
     ]
   },
