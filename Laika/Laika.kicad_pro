@@ -692,6 +692,10 @@
       "Accelerometer"
     ],
     [
+      "b8119f98-127c-4108-9e11-ac714f03ed56",
+      "Magnetometer"
+    ],
+    [
       "3579a39d-b862-4fa6-a309-d4c6c5081eac",
       "LoRa"
     ],
