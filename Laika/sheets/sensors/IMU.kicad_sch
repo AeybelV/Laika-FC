@@ -777,6 +777,46 @@
 		(at 156.21 96.52)
 		(uuid "82547f1e-e115-44ad-9255-631c54465dcd")
 	)
+	(no_connect
+		(at 156.21 93.98)
+		(uuid "b3f00480-5898-4d12-b7ac-737fd282ef3d")
+	)
+	(bus_entry
+		(at 215.9 96.52)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1884a771-307b-4d0f-9fa4-206109ac8bed")
+	)
+	(bus_entry
+		(at 215.9 91.44)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224e9289-7a7a-4ead-9738-8fbfe7abd7c1")
+	)
+	(bus_entry
+		(at 215.9 93.98)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d21eb3-6de7-43cb-8391-69921699a124")
+	)
+	(bus_entry
+		(at 215.9 88.9)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49017a9-0c80-4fdb-85ee-53691d3a3003")
+	)
 	(wire
 		(pts
 			(xy 143.51 86.36) (xy 143.51 63.5)
@@ -806,6 +846,26 @@
 			(type default)
 		)
 		(uuid "0e195bc2-02e1-4ac9-b04e-9fece06715b6")
+	)
+	(bus
+		(pts
+			(xy 220.98 88.9) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106793c6-c217-46d6-9dab-ac6a5c728921")
+	)
+	(bus
+		(pts
+			(xy 215.9 88.9) (xy 215.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113a438c-718c-42f6-91e7-b95b09e6deb5")
 	)
 	(wire
 		(pts
@@ -867,6 +927,16 @@
 		)
 		(uuid "913d04c1-3b2a-4a2d-ae1d-1e48cfa16fe2")
 	)
+	(bus
+		(pts
+			(xy 215.9 96.52) (xy 215.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940ca964-7aeb-4e9b-a121-5ba599000680")
+	)
 	(wire
 		(pts
 			(xy 115.57 104.14) (xy 125.73 104.14)
@@ -876,6 +946,36 @@
 			(type default)
 		)
 		(uuid "94d524bb-89b7-46a0-b1fc-7a6d8c37aace")
+	)
+	(wire
+		(pts
+			(xy 203.2 96.52) (xy 213.36 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96727a8f-3444-419d-aff0-f883cd2ea98b")
+	)
+	(wire
+		(pts
+			(xy 203.2 93.98) (xy 213.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a7ad1e-29e2-4a63-a6ba-ff3f91de5250")
+	)
+	(wire
+		(pts
+			(xy 203.2 91.44) (xy 213.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70c5bd0-5a38-4b00-8156-1ff315208eac")
 	)
 	(wire
 		(pts
@@ -897,7 +997,37 @@
 		)
 		(uuid "e6de4cb8-12fe-492c-8a8f-4d1a644ee89f")
 	)
-	(label "IMU_SCLK"
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 213.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2108a3-3ed8-475e-9d85-eeb805723705")
+	)
+	(bus
+		(pts
+			(xy 215.9 91.44) (xy 215.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12ef74b-e863-4ca9-a96e-680293a5706f")
+	)
+	(bus
+		(pts
+			(xy 215.9 93.98) (xy 215.9 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4214786-fdc4-4568-b145-79ac778c1123")
+	)
+	(label "SENSOR_SCLK"
 		(at 115.57 106.68 180)
 		(effects
 			(font
@@ -907,7 +1037,7 @@
 		)
 		(uuid "4e18cf53-f5c8-4e0d-aae9-386b2179e25b")
 	)
-	(label "IMU_SDO"
+	(label "SENSOR_SDO"
 		(at 115.57 93.98 180)
 		(effects
 			(font
@@ -917,7 +1047,17 @@
 		)
 		(uuid "5e71d807-3581-4a18-94d9-877c13a128b8")
 	)
-	(label "IMU_SDI"
+	(label "IMU_CS"
+		(at 203.2 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cdb84d6-caa9-47e9-bc66-034207894dfe")
+	)
+	(label "SENSOR_SDI"
 		(at 115.57 104.14 180)
 		(effects
 			(font
@@ -927,15 +1067,25 @@
 		)
 		(uuid "93144f83-a4e5-429d-a7c5-c3c377c93240")
 	)
-	(label "IMU_INT"
-		(at 156.21 93.98 0)
+	(label "SENSOR_SDI"
+		(at 203.2 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9f615247-dae1-4227-b9d2-cdc330a65a90")
+		(uuid "97f5eae2-04e0-4d07-a574-c28a0c2ac4cf")
+	)
+	(label "SENSOR_SDO"
+		(at 203.2 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a60c36a7-ec12-4b68-a1d2-50d422465531")
 	)
 	(label "IMU_CS"
 		(at 115.57 109.22 180)
@@ -946,6 +1096,27 @@
 			(justify right bottom)
 		)
 		(uuid "ce365d9f-176f-46d4-8824-ba486a80f315")
+	)
+	(label "SENSOR_SCLK"
+		(at 203.2 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f101cf35-984d-47de-84a6-90b0ae207b56")
+	)
+	(hierarchical_label "{IMU_BUS}"
+		(shape bidirectional)
+		(at 220.98 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf6b7509-a2d2-4f6b-9709-8abfe031d47f")
 	)
 	(symbol
 		(lib_id "LaikaSensors:LSM6DSRX")

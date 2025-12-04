@@ -853,6 +853,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "MAG_BUS"
+		(members "SENSOR_SDO" "SENSOR_SDI" "SENSOR_SCLK" "MAG_CS")
+	)
 	(rectangle
 		(start 76.2 50.8)
 		(end 203.2 127)
@@ -902,6 +905,46 @@
 		(color 0 0 0 0)
 		(uuid "cdf38431-4876-4e4f-9d3d-2ede5c0c7be3")
 	)
+	(no_connect
+		(at 160.02 87.63)
+		(uuid "65f49cc3-6fc9-40d2-8c65-673a8cb5039a")
+	)
+	(bus_entry
+		(at 228.6 83.82)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cbb119-406b-422d-b82b-f25792b73a76")
+	)
+	(bus_entry
+		(at 228.6 81.28)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0059baa-c9ea-4d4b-94b6-c95f58d38e16")
+	)
+	(bus_entry
+		(at 228.6 78.74)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01160cd-6d96-4111-8063-d99f1869cada")
+	)
+	(bus_entry
+		(at 228.6 76.2)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62ae190-6acd-4b3d-af39-1f4095aae3ca")
+	)
 	(wire
 		(pts
 			(xy 160.02 80.01) (xy 165.1 80.01)
@@ -924,6 +967,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 78.74) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4fdc3c-a3ae-4066-934f-6f59bd027f20")
+	)
+	(wire
+		(pts
 			(xy 160.02 77.47) (xy 165.1 77.47)
 		)
 		(stroke
@@ -941,6 +994,16 @@
 			(type default)
 		)
 		(uuid "34126d5b-9b57-4553-9d23-744f363a533d")
+	)
+	(bus
+		(pts
+			(xy 228.6 76.2) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e61dcc-3ae7-4941-bfe5-c27af236ac01")
 	)
 	(wire
 		(pts
@@ -984,6 +1047,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 83.82) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f755fa1-7f1c-49dd-a3f9-ff13d6111b1d")
+	)
+	(wire
+		(pts
+			(xy 215.9 81.28) (xy 226.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f6c3b2-5f4f-4edd-a49d-0a315498bff9")
+	)
+	(wire
+		(pts
 			(xy 165.1 102.87) (xy 160.02 102.87)
 		)
 		(stroke
@@ -1002,15 +1085,55 @@
 		)
 		(uuid "9fde3b28-a7fe-413c-9ef1-fa130eb928f1")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 165.1 87.63) (xy 160.02 87.63)
+			(xy 228.6 78.74) (xy 228.6 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e652ad5a-b178-4ae6-85af-465c846dbc8b")
+		(uuid "a04e7377-6a55-4a9e-a7f7-007ef09f8390")
+	)
+	(bus
+		(pts
+			(xy 228.6 83.82) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b3e556-cc04-4ef8-a1bc-064e7d036fd7")
+	)
+	(bus
+		(pts
+			(xy 233.68 76.2) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36df31b-c8bb-4247-9262-0979983bb3da")
+	)
+	(wire
+		(pts
+			(xy 215.9 86.36) (xy 226.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c697675c-cc28-4b32-8283-ea76a0f1099e")
+	)
+	(bus
+		(pts
+			(xy 228.6 81.28) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3ae65a-bc1b-42c5-8b80-441e9db0f8e4")
 	)
 	(wire
 		(pts
@@ -1022,7 +1145,7 @@
 		)
 		(uuid "eb628402-973c-4b62-9333-96cf9874be4f")
 	)
-	(label "MAG_SDI"
+	(label "SENSOR_SDI"
 		(at 114.3 87.63 180)
 		(effects
 			(font
@@ -1032,7 +1155,27 @@
 		)
 		(uuid "108b0087-e058-43cb-926c-c3d969b23f64")
 	)
-	(label "MAG_SCLK"
+	(label "MAG_CS"
+		(at 215.9 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "202eb51f-39c0-4e90-beec-8466ba7418a8")
+	)
+	(label "SENSOR_SDO"
+		(at 215.9 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29861596-e852-4b89-8b4c-57e9adc43037")
+	)
+	(label "SENSOR_SCLK"
 		(at 114.3 85.09 180)
 		(effects
 			(font
@@ -1042,7 +1185,7 @@
 		)
 		(uuid "33db2eff-f6b7-471f-9e09-d4c9540549a0")
 	)
-	(label "MAG_SDO"
+	(label "SENSOR_SDO"
 		(at 114.3 90.17 180)
 		(effects
 			(font
@@ -1052,15 +1195,25 @@
 		)
 		(uuid "3876e755-5ac4-4638-b554-cae527e230c2")
 	)
-	(label "MAG_INT"
-		(at 165.1 87.63 0)
+	(label "SENSOR_SCLK"
+		(at 215.9 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "89cdc57c-2ba7-4366-acbd-86f4f1ec1d79")
+		(uuid "5b0ed4aa-3ad7-4d9e-b434-959d6e9f4610")
+	)
+	(label "SENSOR_SDI"
+		(at 215.9 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7eee375e-e359-46ec-9fba-5ebd4d16dd0d")
 	)
 	(label "MAG_CS"
 		(at 114.3 82.55 180)
@@ -1071,6 +1224,17 @@
 			(justify right bottom)
 		)
 		(uuid "bcbeec26-e7bb-4638-8d80-01078683e63f")
+	)
+	(hierarchical_label "{MAG_BUS}"
+		(shape bidirectional)
+		(at 233.68 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c06e09f4-8997-4d63-9773-da108a580f25")
 	)
 	(symbol
 		(lib_id "power:GND")

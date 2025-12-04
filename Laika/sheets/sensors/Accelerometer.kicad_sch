@@ -715,6 +715,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "ACCEL_BUS"
+		(members "SENSOR_SDO" "SENSOR_SDI" "SENSOR_SCLK" "ACCEL_CS")
+	)
 	(rectangle
 		(start 76.2 50.8)
 		(end 203.2 127)
@@ -773,12 +776,72 @@
 		(uuid "4b443a1e-dd52-43e3-ba3b-facb44ea11b8")
 	)
 	(no_connect
+		(at 152.4 88.9)
+		(uuid "8db906e8-6a7a-4a94-9ee0-874127fee3a7")
+	)
+	(no_connect
 		(at 152.4 91.44)
 		(uuid "b5d66ec2-f353-47f8-b599-a1d03bee0b90")
 	)
 	(no_connect
 		(at 134.62 101.6)
 		(uuid "fde0b25b-1977-4c88-9a12-82aabe7186fb")
+	)
+	(bus_entry
+		(at 228.6 81.28)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1db77c-bbb9-4d9a-9e64-fa9a07b73c1c")
+	)
+	(bus_entry
+		(at 228.6 78.74)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5befee76-b7ec-45ec-88cb-0e1e4e05fb62")
+	)
+	(bus_entry
+		(at 228.6 83.82)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671ab142-6440-4063-9d3c-c3facdaf20bf")
+	)
+	(bus_entry
+		(at 228.6 76.2)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74003ba-f0ed-44a7-8c7f-685b8c26ce45")
+	)
+	(bus
+		(pts
+			(xy 228.6 81.28) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0747463c-66d6-4f52-943c-b1eda17da218")
+	)
+	(wire
+		(pts
+			(xy 215.9 86.36) (xy 226.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a40bfb-5337-41c5-b7c3-df22ceff908a")
 	)
 	(wire
 		(pts
@@ -792,13 +855,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 88.9) (xy 152.4 88.9)
+			(xy 215.9 81.28) (xy 226.06 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "315ad468-e5bf-4ca5-acea-99b91c0b9da1")
+		(uuid "5ff72f05-fcb9-4572-8e46-d99eca20048e")
+	)
+	(bus
+		(pts
+			(xy 228.6 78.74) (xy 228.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622e0c4c-2d2d-46f9-8237-f71ee2e80299")
 	)
 	(wire
 		(pts
@@ -820,6 +893,36 @@
 		)
 		(uuid "79b34e96-6ee3-453c-b9fd-3adf268c9b29")
 	)
+	(bus
+		(pts
+			(xy 233.68 76.2) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c2366b8-3981-4153-b448-e6956a652df4")
+	)
+	(bus
+		(pts
+			(xy 228.6 83.82) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c879a36-8945-48d0-a227-4f2f630aef37")
+	)
+	(bus
+		(pts
+			(xy 228.6 76.2) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f97502-aa63-43f1-bb2e-1b027f15d211")
+	)
 	(wire
 		(pts
 			(xy 114.3 88.9) (xy 127 88.9)
@@ -829,6 +932,16 @@
 			(type default)
 		)
 		(uuid "85cda3e3-6023-4f41-99cb-b37e0c2c02a6")
+	)
+	(wire
+		(pts
+			(xy 215.9 78.74) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cce1bb-953e-4f29-835b-045771bc45e1")
 	)
 	(wire
 		(pts
@@ -872,6 +985,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 83.82) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f0a1d6-d022-4b55-806b-c2adcf8da0d6")
+	)
+	(wire
+		(pts
 			(xy 114.3 86.36) (xy 127 86.36)
 		)
 		(stroke
@@ -880,7 +1003,27 @@
 		)
 		(uuid "fcf19b7c-fa46-468a-ba1d-260829e00e5b")
 	)
-	(label "ACCEL_SCLK"
+	(label "ACCEL_CS"
+		(at 215.9 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eb3fe44-f348-4328-aa1f-94a0e3a65470")
+	)
+	(label "SENSOR_SDO"
+		(at 215.9 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2818026d-d346-4d1a-aed9-890331865cf9")
+	)
+	(label "SENSOR_SCLK"
 		(at 114.3 91.44 180)
 		(effects
 			(font
@@ -900,7 +1043,7 @@
 		)
 		(uuid "2e1e4719-ca49-4234-80b0-7c897f9bd5f9")
 	)
-	(label "ACCEL_SDI"
+	(label "SENSOR_SDI"
 		(at 114.3 86.36 180)
 		(effects
 			(font
@@ -910,17 +1053,17 @@
 		)
 		(uuid "3f96c662-9293-438e-9dd4-f92834ded1a8")
 	)
-	(label "ACCEL_INT"
-		(at 165.1 88.9 0)
+	(label "SENSOR_SDI"
+		(at 215.9 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9450939b-84cd-42bb-a4e8-9470492a4698")
+		(uuid "52af8cab-4baf-437f-ac6e-1bc4fb2105f4")
 	)
-	(label "ACCEL_SDO"
+	(label "SENSOR_SDO"
 		(at 114.3 88.9 180)
 		(effects
 			(font
@@ -929,6 +1072,27 @@
 			(justify right bottom)
 		)
 		(uuid "b2b3d073-d377-4fe6-9501-ce3188a25641")
+	)
+	(label "SENSOR_SCLK"
+		(at 215.9 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b875ab0d-fc0f-4e23-b256-41660efe5a1f")
+	)
+	(hierarchical_label "{ACCEL_BUS}"
+		(shape bidirectional)
+		(at 233.68 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfc3c31c-25ea-4c6b-8113-f8f35421171e")
 	)
 	(symbol
 		(lib_id "power:+3V3")

@@ -758,6 +758,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "BARO_BUS"
+		(members "SENSOR_SDO" "SENSOR_SDI" "SENSOR_SCLK" "BARO_CS")
+	)
 	(rectangle
 		(start 76.2 50.8)
 		(end 203.2 127)
@@ -813,6 +816,46 @@
 		(color 0 0 0 0)
 		(uuid "d922a288-6fc4-4f67-89f8-c92e4d7fdcbc")
 	)
+	(no_connect
+		(at 153.67 85.09)
+		(uuid "b729d388-9c7d-4c43-9895-3e029e3edec2")
+	)
+	(bus_entry
+		(at 228.6 78.74)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f1b770-dcf1-471e-abe1-e4e7d2bc2d65")
+	)
+	(bus_entry
+		(at 228.6 81.28)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d23e9e-6683-4a71-86d1-f77cc274414d")
+	)
+	(bus_entry
+		(at 228.6 83.82)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95182d04-0459-4067-b994-1de5b43f58e6")
+	)
+	(bus_entry
+		(at 228.6 76.2)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da68cfac-882e-484d-a73f-8d6917cb76fa")
+	)
 	(wire
 		(pts
 			(xy 153.67 74.93) (xy 171.45 74.93)
@@ -833,6 +876,16 @@
 		)
 		(uuid "0f85678f-b5c2-4d83-b64f-7f39d152ef73")
 	)
+	(bus
+		(pts
+			(xy 228.6 83.82) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127725fe-0888-4d3c-9af8-613d67c63ec1")
+	)
 	(wire
 		(pts
 			(xy 171.45 74.93) (xy 182.88 74.93)
@@ -843,6 +896,16 @@
 		)
 		(uuid "14600fca-e5ef-46c6-a3b3-2b78be87d490")
 	)
+	(bus
+		(pts
+			(xy 233.68 76.2) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c1a99d-cb58-4095-8ed3-b974e50a3cb7")
+	)
 	(wire
 		(pts
 			(xy 158.75 92.71) (xy 153.67 92.71)
@@ -852,6 +915,36 @@
 			(type default)
 		)
 		(uuid "1e1ce789-6dcc-4b41-9da7-72c5f6a7d409")
+	)
+	(bus
+		(pts
+			(xy 228.6 78.74) (xy 228.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c2c8bf-cfe0-4f28-ab63-3dc622a9e064")
+	)
+	(bus
+		(pts
+			(xy 228.6 76.2) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d38dfb0-c0fc-48e3-ba2d-09337e8872b4")
+	)
+	(wire
+		(pts
+			(xy 215.9 86.36) (xy 226.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b032cb5-25c7-4379-82f7-2c5a155f5d4f")
 	)
 	(wire
 		(pts
@@ -865,16 +958,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 85.09) (xy 153.67 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5679f2f-c35d-4016-a5f7-02ddf65ebbeb")
-	)
-	(wire
-		(pts
 			(xy 171.45 74.93) (xy 171.45 77.47)
 		)
 		(stroke
@@ -885,6 +968,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 83.82) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6ef2d3-d3dc-4ff2-88e1-a4aea4d32a82")
+	)
+	(wire
+		(pts
 			(xy 107.95 80.01) (xy 113.03 80.01)
 		)
 		(stroke
@@ -892,6 +985,36 @@
 			(type default)
 		)
 		(uuid "b9a3863a-b209-451c-87ce-ba4a7fe9fbe7")
+	)
+	(wire
+		(pts
+			(xy 215.9 81.28) (xy 226.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c158c6e3-7792-4291-89fc-0abd1560f9bf")
+	)
+	(wire
+		(pts
+			(xy 215.9 78.74) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a6f72c-e01d-4bd0-a4b7-6c0a29b81bcc")
+	)
+	(bus
+		(pts
+			(xy 228.6 81.28) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66a77d2-c747-4f69-8233-826e30642d50")
 	)
 	(wire
 		(pts
@@ -913,17 +1036,7 @@
 		)
 		(uuid "eaaf0c2e-ba41-4a38-9fe6-ed23d7ed1527")
 	)
-	(label "BARO_INT"
-		(at 158.75 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0336a2c9-77e7-4b31-94b6-e0ee70dff1ce")
-	)
-	(label "BARO_SCLK"
+	(label "SENSOR_SCLK"
 		(at 107.95 85.09 180)
 		(effects
 			(font
@@ -932,6 +1045,26 @@
 			(justify right bottom)
 		)
 		(uuid "25120839-7fbd-4796-b824-656e784c9b1b")
+	)
+	(label "BARO_CS"
+		(at 215.9 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e51b959-c318-4ad8-80b0-32b0f7878fc6")
+	)
+	(label "SENSOR_SCLK"
+		(at 215.9 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f04789f-1304-4e34-863a-0f684e5881cd")
 	)
 	(label "BARO_CS"
 		(at 107.95 80.01 180)
@@ -943,7 +1076,27 @@
 		)
 		(uuid "526448eb-649d-483f-8d71-5f3b11ab80e3")
 	)
-	(label "BARO_SDI"
+	(label "SENSOR_SDO"
+		(at 215.9 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66ee719c-1963-4f43-be5d-3e0729393af7")
+	)
+	(label "SENSOR_SDI"
+		(at 215.9 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7826cb53-8b18-4c51-9374-37a1860e12f9")
+	)
+	(label "SENSOR_SDI"
 		(at 107.95 87.63 180)
 		(effects
 			(font
@@ -953,7 +1106,7 @@
 		)
 		(uuid "8dbfc7e0-2ab4-4f94-9d93-2864d3254123")
 	)
-	(label "BARO_SDO"
+	(label "SENSOR_SDO"
 		(at 107.95 90.17 180)
 		(effects
 			(font
@@ -962,6 +1115,17 @@
 			(justify right bottom)
 		)
 		(uuid "8e46d128-df1e-493a-b3b0-cf1d44279339")
+	)
+	(hierarchical_label "{BARO_BUS}"
+		(shape bidirectional)
+		(at 233.68 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06444a73-2943-4a5b-8a1f-e68c0de7f36a")
 	)
 	(symbol
 		(lib_id "Device:C")
