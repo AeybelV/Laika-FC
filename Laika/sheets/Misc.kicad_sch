@@ -2295,7 +2295,7 @@
 		)
 		(uuid "581bfefd-8e66-4dd4-b203-238532d84d03")
 	)
-	(text "Blue PWR LED"
+	(text "Blue User LED"
 		(exclude_from_sim no)
 		(at 160.274 136.398 0)
 		(effects
@@ -3128,7 +3128,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_TVS"
+		(property "Value" "ESD9L5.0ST5G"
 			(at 142.24 83.8199 90)
 			(effects
 				(font
@@ -3137,7 +3137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 139.7 82.55 0)
 			(effects
 				(font
@@ -3146,7 +3146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9l-d.pdf"
 			(at 139.7 82.55 0)
 			(effects
 				(font
@@ -3157,6 +3157,33 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 139.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Extended"
+			(at 139.7 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "onsemi"
+			(at 139.7 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ESD9L5.0ST5G "
+			(at 139.7 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NPN"
+		(property "Value" "MMBT5551"
 			(at 231.14 83.8199 0)
 			(effects
 				(font
@@ -3207,7 +3234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 231.14 80.01 0)
 			(effects
 				(font
@@ -3216,7 +3243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://diotec.com/request/datasheet/mmbt5551.pdf"
 			(at 226.06 82.55 0)
 			(effects
 				(font
@@ -3226,6 +3253,33 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
+			(at 226.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 226.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Diotec Semiconductor"
+			(at 226.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MMBT5551"
 			(at 226.06 82.55 0)
 			(effects
 				(font
@@ -3271,7 +3325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Buzzer"
+		(property "Value" "CMT-0502-03-SMT-TR"
 			(at 234.95 71.1199 0)
 			(effects
 				(font
@@ -3289,7 +3343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/cmt_0502_03_smt_tr.pdf"
 			(at 230.505 67.31 90)
 			(effects
 				(font
@@ -3299,6 +3353,24 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
+			(at 231.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Same Sky"
+			(at 231.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CMT-0502-03-SMT-TR"
 			(at 231.14 69.85 0)
 			(effects
 				(font
@@ -3408,7 +3480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "M7"
 			(at 218.44 71.1199 90)
 			(effects
 				(font
@@ -3417,7 +3489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 215.9 69.85 0)
 			(effects
 				(font
@@ -3426,7 +3498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://diotec.com/request/datasheet/m1.pdf"
 			(at 215.9 69.85 0)
 			(effects
 				(font
@@ -3455,6 +3527,33 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 215.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Diotec Semiconductor"
+			(at 215.9 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "M7"
+			(at 215.9 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 215.9 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3594,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT_x2"
+		(property "Value" "JS202011JAQN"
 			(at 76.2 133.35 0)
 			(effects
 				(font
@@ -3503,7 +3602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011AQN_DPDT_Angled"
 			(at 76.2 139.7 0)
 			(effects
 				(font
@@ -3512,7 +3611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf"
 			(at 76.2 139.7 0)
 			(effects
 				(font
@@ -3522,6 +3621,33 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 76.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "C&K"
+			(at 76.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "JS202011JAQN"
+			(at 76.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Extended"
 			(at 76.2 139.7 0)
 			(effects
 				(font
@@ -3651,7 +3777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 154.178 69.85 90)
 			(effects
 				(font
@@ -3660,7 +3786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 152.4 69.85 0)
 			(effects
 				(font
@@ -3670,6 +3796,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Royalohm"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF4701TCE"
 			(at 152.4 69.85 0)
 			(effects
 				(font
@@ -3721,7 +3874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 77.978 69.85 90)
 			(effects
 				(font
@@ -3730,7 +3883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 76.2 69.85 0)
 			(effects
 				(font
@@ -3740,6 +3893,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Royalohm"
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGJ0103TCE"
 			(at 76.2 69.85 0)
 			(effects
 				(font
@@ -3915,7 +4095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "2N7002"
 			(at 156.21 148.5899 0)
 			(effects
 				(font
@@ -3924,7 +4104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 154.94 144.78 0)
 			(effects
 				(font
@@ -3933,7 +4113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nds7002a-d.pdf"
 			(at 149.86 147.32 0)
 			(effects
 				(font
@@ -3943,6 +4123,33 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "onsemi / Fairchild"
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "2N7002"
 			(at 149.86 147.32 0)
 			(effects
 				(font
@@ -3988,7 +4195,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_TVS"
+		(property "Value" "ESD9L5.0ST5G"
 			(at 66.04 83.8199 90)
 			(effects
 				(font
@@ -3997,7 +4204,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 63.5 82.55 0)
 			(effects
 				(font
@@ -4006,7 +4213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9l-d.pdf"
 			(at 63.5 82.55 0)
 			(effects
 				(font
@@ -4017,6 +4224,33 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Extended"
+			(at 63.5 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "onsemi"
+			(at 63.5 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ESD9L5.0ST5G "
+			(at 63.5 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +4359,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_TVS"
+		(property "Value" "ESD9L5.0ST5G"
 			(at 66.04 147.3199 90)
 			(effects
 				(font
@@ -4134,7 +4368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 63.5 146.05 0)
 			(effects
 				(font
@@ -4143,7 +4377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9l-d.pdf"
 			(at 63.5 146.05 0)
 			(effects
 				(font
@@ -4154,6 +4388,33 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Extended"
+			(at 63.5 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "onsemi"
+			(at 63.5 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ESD9L5.0ST5G "
+			(at 63.5 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +4531,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 154.178 82.55 90)
 			(effects
 				(font
@@ -4279,7 +4540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 152.4 82.55 0)
 			(effects
 				(font
@@ -4289,6 +4550,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Royalohm"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF3301TCE"
 			(at 152.4 82.55 0)
 			(effects
 				(font
@@ -4547,7 +4835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1479/kmr2.pdf"
 			(at 133.35 71.12 0)
 			(effects
 				(font
@@ -4557,6 +4845,33 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "C&K"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "KMR211GLFS"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Extended"
 			(at 133.35 76.2 0)
 			(effects
 				(font
@@ -4608,7 +4923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 87.122 133.35 90)
 			(effects
 				(font
@@ -4617,7 +4932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 88.9 133.35 0)
 			(effects
 				(font
@@ -4627,6 +4942,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Royalohm"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGJ0103TCE"
 			(at 88.9 133.35 0)
 			(effects
 				(font
@@ -4678,7 +5020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.1652 86.36 0)
 			(effects
 				(font
@@ -4687,7 +5029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 76.2 82.55 0)
 			(effects
 				(font
@@ -4697,6 +5039,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Samsung Electro-Mechanics"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 76.2 82.55 0)
 			(effects
 				(font
@@ -4746,7 +5115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 134.62 145.542 90)
 			(effects
 				(font
@@ -4755,7 +5124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 134.62 147.32 0)
 			(effects
 				(font
@@ -4766,6 +5135,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 134.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 134.62 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Royalohm"
+			(at 134.62 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF1001TCE"
+			(at 134.62 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4816,7 +5212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 87.122 146.05 90)
 			(effects
 				(font
@@ -4825,7 +5221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 88.9 146.05 0)
 			(effects
 				(font
@@ -4835,6 +5231,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 88.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 88.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Royalohm"
+			(at 88.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGJ0103TCE"
 			(at 88.9 146.05 0)
 			(effects
 				(font
@@ -5018,7 +5441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 57.15 141.478 90)
 			(effects
 				(font
@@ -5027,7 +5450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 57.15 139.7 0)
 			(effects
 				(font
@@ -5038,6 +5461,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 57.15 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 57.15 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Royalohm"
+			(at 57.15 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF1000TCE"
+			(at 57.15 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +5538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 154.178 127 90)
 			(effects
 				(font
@@ -5097,7 +5547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 152.4 127 0)
 			(effects
 				(font
@@ -5107,6 +5557,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 152.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 152.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Royalohm"
+			(at 152.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF1001TCE"
 			(at 152.4 127 0)
 			(effects
 				(font
@@ -5356,7 +5833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 69.85 77.978 90)
 			(effects
 				(font
@@ -5365,7 +5842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 69.85 76.2 0)
 			(effects
 				(font
@@ -5376,6 +5853,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 69.85 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Royalohm"
+			(at 69.85 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF1000TCE"
+			(at 69.85 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5921,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "SMLP14BCNWT86"
 			(at 156.21 138.7474 90)
 			(effects
 				(font
@@ -5426,7 +5930,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 152.4 135.89 0)
 			(effects
 				(font
@@ -5435,7 +5939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=SMLP14BCNW&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 152.4 135.89 0)
 			(effects
 				(font
@@ -5455,6 +5959,33 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Extended"
+			(at 152.4 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Rohm Semiconductor"
+			(at 152.4 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SMLP14BCNWT86"
+			(at 152.4 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +6101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 209.55 84.328 90)
 			(effects
 				(font
@@ -5579,7 +6110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 209.55 82.55 0)
 			(effects
 				(font
@@ -5590,6 +6121,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 209.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 209.55 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Royalohm"
+			(at 209.55 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGJ0181TCE"
+			(at 209.55 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +6205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1479/kmr2.pdf"
 			(at 57.15 71.12 0)
 			(effects
 				(font
@@ -5657,6 +6215,33 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 57.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "C&K"
+			(at 57.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "KMR211GLFS"
+			(at 57.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Extended"
 			(at 57.15 76.2 0)
 			(effects
 				(font
@@ -5706,7 +6291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 146.05 77.978 90)
 			(effects
 				(font
@@ -5715,7 +6300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 146.05 76.2 0)
 			(effects
 				(font
@@ -5726,6 +6311,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 146.05 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Royalohm"
+			(at 146.05 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF1000TCE"
+			(at 146.05 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)

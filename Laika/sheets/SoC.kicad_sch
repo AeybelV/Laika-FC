@@ -2908,6 +2908,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 180.34) (xy 129.54 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224ba0ab-98e2-4b81-b88d-ef259163d2f5")
+	)
+	(wire
+		(pts
 			(xy 143.51 152.4) (xy 143.51 143.51)
 		)
 		(stroke
@@ -3506,6 +3516,16 @@
 		)
 		(uuid "96892572-4128-4429-a5d1-8bf3ba666887")
 	)
+	(wire
+		(pts
+			(xy 127 185.42) (xy 129.54 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99207679-eac3-436f-aafe-a4afb3bb8281")
+	)
 	(bus
 		(pts
 			(xy 43.18 106.68) (xy 38.1 106.68)
@@ -3685,6 +3705,16 @@
 			(type default)
 		)
 		(uuid "bc1c3808-2c59-4b22-917b-f135c03c8740")
+	)
+	(wire
+		(pts
+			(xy 127 182.88) (xy 129.54 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf392773-ca4d-43b8-8274-65044fc62bf8")
 	)
 	(bus
 		(pts
@@ -4026,6 +4056,16 @@
 		)
 		(uuid "03fe1746-a9f8-4cc1-8001-e076eacb067a")
 	)
+	(label "UART_SYS_CON_TX"
+		(at 127 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c36b174-b019-46eb-9ae5-d5e2446d6b80")
+	)
 	(label "LORA_RX"
 		(at 25.4 111.76 0)
 		(effects
@@ -4075,6 +4115,16 @@
 			(justify left bottom)
 		)
 		(uuid "203e6845-e3d4-47ed-9bdb-a427184f141f")
+	)
+	(label "UART_SYS_CON_RX"
+		(at 127 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26c6c01e-cd69-47f4-8eaf-206185db19f9")
 	)
 	(label "SENSOR_SDO"
 		(at 228.6 40.64 0)
@@ -4135,16 +4185,6 @@
 			(justify left bottom)
 		)
 		(uuid "3bb06f4a-1ea4-48fa-98ec-1c23961ba8d5")
-	)
-	(label "UART_SYS_CON_TX"
-		(at 129.54 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "411729b5-1625-41c1-89bb-9ed002c7d409")
 	)
 	(label "EXT_BUS_I2C_SDA"
 		(at 241.3 116.84 0)
@@ -4225,16 +4265,6 @@
 			(justify right bottom)
 		)
 		(uuid "558e9b12-581a-4ab1-9861-6c415e9570ed")
-	)
-	(label "UART_SYS_CON_RX"
-		(at 129.54 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58cac5bf-0c6b-416e-8271-af57f0fec6f8")
 	)
 	(label "USB_DM"
 		(at 190.5 77.47 0)
@@ -4982,7 +5012,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 185.42 0)
+		(at 127 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4991,7 +5021,7 @@
 		(fields_autoplaced yes)
 		(uuid "427b0b7a-a3b0-4cc2-b392-50cc2693af0d")
 		(property "Reference" "#PWR059"
-			(at 129.54 191.77 0)
+			(at 120.65 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5030,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 190.5 0)
+			(at 121.92 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +5039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 185.42 0)
+			(at 127 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +5048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 185.42 0)
+			(at 127 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,7 +5057,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 185.42 0)
+			(at 127 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,7 +5198,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "N/A"
 			(at 139.7 101.6 0)
 			(effects
 				(font
@@ -5177,7 +5207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "Duo Module 01"
 			(at 139.7 101.6 0)
 			(effects
 				(font
@@ -5186,7 +5216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manafacturer" ""
+		(property "Manafacturer" "Milk-V"
 			(at 139.7 101.6 0)
 			(effects
 				(font
@@ -5643,7 +5673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
 			(at 134.62 182.88 0)
 			(effects
 				(font

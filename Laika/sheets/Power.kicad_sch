@@ -2053,6 +2053,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC Part Type" "Extended"
+			(at 106.68 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "173561c4-c7e7-44b4-bfcc-40ada913cecb")
 		)
@@ -2111,7 +2120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/72/1/KEM_C1002_X7R_SMD.pdf"
 			(at 171.45 91.44 0)
 			(effects
 				(font
@@ -2129,7 +2138,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 171.45 91.44 90)
 			(effects
 				(font
@@ -2225,7 +2234,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -2316,7 +2325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 190.5 92.71 0)
 			(effects
 				(font
@@ -2334,7 +2343,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 190.5 92.71 0)
 			(effects
 				(font
@@ -2572,7 +2581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRN8040.pdf"
 			(at 184.15 88.9 0)
 			(effects
 				(font
@@ -2590,7 +2599,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 184.15 88.9 90)
 			(effects
 				(font
@@ -2736,7 +2745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 203.2 107.95 0)
 			(effects
 				(font
@@ -2754,7 +2763,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 203.2 107.95 0)
 			(effects
 				(font
@@ -3016,7 +3025,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "599-1A10-147F"
 			(at 226.06 110.8074 90)
 			(effects
 				(font
@@ -3025,7 +3034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 222.25 107.95 0)
 			(effects
 				(font
@@ -3034,7 +3043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/350/1/C18789.pdf"
 			(at 222.25 107.95 0)
 			(effects
 				(font
@@ -3054,6 +3063,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Dialight"
+			(at 222.25 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "599-1A10-147F "
+			(at 222.25 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +3140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 190.5 100.33 0)
 			(effects
 				(font
@@ -3131,7 +3158,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 190.5 100.33 0)
 			(effects
 				(font
@@ -3201,7 +3228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 89.8652 177.8 0)
 			(effects
 				(font
@@ -3210,7 +3237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 88.9 173.99 0)
 			(effects
 				(font
@@ -3220,6 +3247,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Samsung Electro-Mechanics"
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05A105KA5NQNC"
 			(at 88.9 173.99 0)
 			(effects
 				(font
@@ -3280,7 +3334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -3298,7 +3352,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -3510,7 +3564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Tayio_Yuden_1102023_MS_mlcc_all_e.pdf"
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -3537,7 +3591,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -3739,7 +3793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Tayio_Yuden_1102023_MS_mlcc_all_e.pdf"
 			(at 101.6 105.41 0)
 			(effects
 				(font
@@ -3766,7 +3820,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 101.6 105.41 0)
 			(effects
 				(font
@@ -3833,7 +3887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 158.75 91.44 0)
 			(effects
 				(font
@@ -3851,7 +3905,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 158.75 91.44 90)
 			(effects
 				(font
@@ -4015,7 +4069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127.9652 177.8 0)
 			(effects
 				(font
@@ -4024,7 +4078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 127 173.99 0)
 			(effects
 				(font
@@ -4034,6 +4088,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 127 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Samsung Electro-Mechanics"
+			(at 127 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05A105KA5NQNC"
 			(at 127 173.99 0)
 			(effects
 				(font
@@ -4161,7 +4242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/72/1/KEM_C1002_X7R_SMD.pdf"
 			(at 114.3 92.71 0)
 			(effects
 				(font
@@ -4179,7 +4260,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 114.3 92.71 0)
 			(effects
 				(font
@@ -4249,7 +4330,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 224.028 96.52 90)
 			(effects
 				(font
@@ -4258,7 +4339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 222.25 96.52 0)
 			(effects
 				(font
@@ -4268,6 +4349,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Basic"
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "Royalohm"
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF5100TCE"
 			(at 222.25 96.52 0)
 			(effects
 				(font

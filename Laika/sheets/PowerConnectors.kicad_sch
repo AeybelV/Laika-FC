@@ -2967,7 +2967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -2994,7 +2994,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 52.07 76.2 0)
 			(effects
 				(font
@@ -3003,7 +3003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "USB4110-GF-A "
 			(at 52.07 76.2 0)
 			(effects
 				(font
@@ -3012,7 +3012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manafacturer" ""
+		(property "Manafacturer" "Global Connector Technology"
 			(at 52.07 76.2 0)
 			(effects
 				(font
@@ -3339,7 +3339,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Extended"
 			(at 106.68 76.2 0)
 			(effects
 				(font
@@ -3836,7 +3836,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "M7"
 			(at 213.36 78.74 0)
 			(effects
 				(font
@@ -3844,7 +3844,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 213.36 82.55 0)
 			(effects
 				(font
@@ -3853,7 +3853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://diotec.com/request/datasheet/m1.pdf"
 			(at 213.36 82.55 0)
 			(effects
 				(font
@@ -3889,7 +3889,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Basic"
 			(at 213.36 82.55 0)
 			(effects
 				(font
@@ -3898,7 +3898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "M7"
 			(at 213.36 82.55 0)
 			(effects
 				(font
@@ -3907,7 +3907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manafacturer" ""
+		(property "Manafacturer" "Diotec Semiconductor"
 			(at 213.36 82.55 0)
 			(effects
 				(font
@@ -4327,7 +4327,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "M7"
 			(at 213.36 66.04 0)
 			(effects
 				(font
@@ -4335,7 +4335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -4344,7 +4344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://diotec.com/request/datasheet/m1.pdf"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -4380,7 +4380,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Basic"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -4389,7 +4389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "M7"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -4398,7 +4398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manafacturer" ""
+		(property "Manafacturer" "Diotec Semiconductor"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -4783,7 +4783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.122 93.98 90)
 			(effects
 				(font
@@ -4792,7 +4792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 88.9 93.98 0)
 			(effects
 				(font
@@ -4810,7 +4810,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Basic"
 			(at 88.9 93.98 0)
 			(effects
 				(font
@@ -4819,7 +4819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0402WGF5101TCE"
 			(at 88.9 93.98 0)
 			(effects
 				(font
@@ -4828,7 +4828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manafacturer" ""
+		(property "Manafacturer" "Royalohm"
 			(at 88.9 93.98 0)
 			(effects
 				(font
@@ -4946,7 +4946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 74.422 93.98 90)
 			(effects
 				(font
@@ -4955,7 +4955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/5925/1/1.pdf"
 			(at 76.2 93.98 0)
 			(effects
 				(font
@@ -4973,7 +4973,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Type" ""
+		(property "JLC Part Type" "Basic"
 			(at 76.2 93.98 0)
 			(effects
 				(font
@@ -4982,7 +4982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0402WGF5101TCE"
 			(at 76.2 93.98 0)
 			(effects
 				(font
@@ -4991,7 +4991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manafacturer" ""
+		(property "Manafacturer" "Royalohm"
 			(at 76.2 93.98 0)
 			(effects
 				(font
