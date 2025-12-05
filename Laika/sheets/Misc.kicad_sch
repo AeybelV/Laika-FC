@@ -3334,7 +3334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CMT-0502-03-SMT-TR:XDCR_CMT-0502-03-SMT-TR"
 			(at 230.505 67.31 90)
 			(effects
 				(font
