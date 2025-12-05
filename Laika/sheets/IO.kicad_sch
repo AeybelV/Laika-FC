@@ -1083,7 +1083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical"
 			(at 151.13 93.98 0)
 			(effects
 				(font

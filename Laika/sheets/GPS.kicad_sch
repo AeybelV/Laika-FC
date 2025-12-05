@@ -1767,16 +1767,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 113.03) (xy 241.3 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04b89d95-6e74-493b-9255-2df52be1caf0")
-	)
-	(wire
-		(pts
 			(xy 88.9 167.64) (xy 99.06 167.64)
 		)
 		(stroke
@@ -2037,6 +2027,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 113.03) (xy 241.3 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0dbbe4f-d835-4853-a29b-7ff7a71c159f")
+	)
+	(wire
+		(pts
 			(xy 104.14 76.2) (xy 104.14 69.85)
 		)
 		(stroke
@@ -2145,6 +2145,26 @@
 		)
 		(uuid "f2bf8f02-354d-462f-a096-d752de9a2a1b")
 	)
+	(label "EXT_GPS_RX"
+		(at 234.95 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03104361-c6c4-438f-9562-97e18abcb27f")
+	)
+	(label "EXT_GPS_TX"
+		(at 234.95 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "082c0fb7-b37e-469b-8b25-876d64386077")
+	)
 	(label "UBLOX_RX"
 		(at 127 83.82 0)
 		(effects
@@ -2175,6 +2195,16 @@
 		)
 		(uuid "12bcbe8d-675a-4944-9257-33649c5fb431")
 	)
+	(label "EXT_GPS_PPS"
+		(at 234.95 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "159bc26f-773a-4229-abda-dda8b313585c")
+	)
 	(label "UBLOX_PPS"
 		(at 76.2 88.9 180)
 		(effects
@@ -2184,16 +2214,6 @@
 			(justify right bottom)
 		)
 		(uuid "167f45e7-4dc6-42f7-9386-12cedc852e18")
-	)
-	(label "EXT_GPS_PPS"
-		(at 234.95 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2cea9889-9fd9-4096-b419-3abe94dc76dc")
 	)
 	(label "UBLOX_TX"
 		(at 193.04 57.15 180)
@@ -2275,26 +2295,6 @@
 		)
 		(uuid "6fc86807-36f5-4a1e-91b2-955f8495bce7")
 	)
-	(label "EXT_GPS_TX"
-		(at 234.95 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7147395c-63ae-4efd-9b76-ead2c924bb12")
-	)
-	(label "EXT_GPS_PWR"
-		(at 234.95 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "78b57e56-3c1e-4a17-a91a-b7c4241d12c3")
-	)
 	(label "UBLOX_RESET"
 		(at 238.76 57.15 180)
 		(effects
@@ -2345,16 +2345,6 @@
 		)
 		(uuid "ab02a75a-25ce-4768-aad7-3e00a5027652")
 	)
-	(label "EXT_GPS_RX"
-		(at 234.95 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b8548943-f6be-49eb-aed2-f257208bae7b")
-	)
 	(label "EXT_GPS_PWR"
 		(at 250.19 82.55 0)
 		(effects
@@ -2374,6 +2364,16 @@
 			(justify right bottom)
 		)
 		(uuid "e7fa0369-934a-462e-96b4-00596577d2bc")
+	)
+	(label "EXT_GPS_PWR"
+		(at 234.95 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8b51e40-d880-4501-8e96-ced4f3e6ad3c")
 	)
 	(label "UBLOX_PWR"
 		(at 234.95 82.55 180)
@@ -2557,7 +2557,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 113.03 0)
+		(at 234.95 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2566,7 +2566,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ed1ec31-9aac-400f-a336-fe0adfe68b87")
 		(property "Reference" "#PWR084"
-			(at 234.95 119.38 0)
+			(at 228.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 118.11 0)
+			(at 229.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2584,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 113.03 0)
+			(at 234.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 113.03 0)
+			(at 234.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2602,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 113.03 0)
+			(at 234.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 118.11 88.138 90)
 			(effects
 				(font
@@ -2984,7 +2984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 118.11 85.598 90)
 			(effects
 				(font
@@ -3054,7 +3054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
 			(at 246.38 107.95 0)
 			(effects
 				(font
@@ -3152,6 +3152,33 @@
 			)
 		)
 		(property "Description" "GPS ublox M8 variant"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part Type" "Extended"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manafacturer" "u-blox"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SAM-M8Q-0 "
 			(at 101.6 88.9 0)
 			(effects
 				(font

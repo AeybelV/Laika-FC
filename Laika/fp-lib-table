@@ -4,4 +4,5 @@
   (lib (name "Reyax_LoRa")(type "KiCad")(uri "${KIPRJMOD}/lib/external/Reyax-LoRa-Kicad-Library/kicad/Reyax_LoRa.pretty")(options "")(descr ""))
   (lib (name "BMP390")(type "KiCad")(uri "${KIPRJMOD}/lib/external/BMP390")(options "")(descr ""))
   (lib (name "MMC5983MA")(type "KiCad")(uri "${KIPRJMOD}/lib/external/MMC5983MA")(options "")(descr ""))
+  (lib (name "CMT-0502-03-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/external/CMT-0502-03-SMT-TR")(options "")(descr ""))
 )
