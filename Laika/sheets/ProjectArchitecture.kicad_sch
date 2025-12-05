@@ -363,6 +363,16 @@
 		)
 		(uuid "672428de-f02f-4de6-b08c-7fe97e072632")
 	)
+	(bus
+		(pts
+			(xy 139.7 147.32) (xy 127 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e900538-413c-4fcc-8065-c45d368e2c5b")
+	)
 	(wire
 		(pts
 			(xy 127 29.21) (xy 139.7 29.21)
@@ -372,6 +382,16 @@
 			(type default)
 		)
 		(uuid "7fe66bd8-6fa0-4ae3-9dfb-89a22f9ff858")
+	)
+	(bus
+		(pts
+			(xy 139.7 165.1) (xy 139.7 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82261b78-2f17-427b-a8d3-84f44e4a2187")
 	)
 	(bus
 		(pts
@@ -392,6 +412,16 @@
 			(type default)
 		)
 		(uuid "87eaacad-5c43-4a2c-99ff-64a735d32730")
+	)
+	(bus
+		(pts
+			(xy 127 139.7) (xy 127 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a57b1d9-1ced-4ebf-8f7e-5e01e127f9ef")
 	)
 	(bus
 		(pts
@@ -452,6 +482,16 @@
 			(type default)
 		)
 		(uuid "d9aef2d6-5d5e-4140-aa9f-1746e45d1ee0")
+	)
+	(bus
+		(pts
+			(xy 135.89 165.1) (xy 139.7 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8fc8944-8084-44d1-820a-32c025cd5837")
 	)
 	(wire
 		(pts
@@ -679,6 +719,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{EXT_BUS}" bidirectional
+			(at 135.89 165.1 0)
+			(uuid "21e0cd85-e86d-4ba3-b5be-fbf511ee1270")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1065,6 +1115,16 @@
 		(pin "{EXT_IO}" bidirectional
 			(at 101.6 139.7 270)
 			(uuid "bd9d6ca8-0942-4586-a644-95e7d9f58d1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{EXT_BUS}" bidirectional
+			(at 127 139.7 270)
+			(uuid "3673ba0d-ea6d-4667-a32b-2ec9f92b079a")
 			(effects
 				(font
 					(size 1.27 1.27)

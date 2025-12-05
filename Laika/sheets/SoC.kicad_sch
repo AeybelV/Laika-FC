@@ -2191,6 +2191,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "EXT_BUS"
+		(members "SENSOR_SD0" "SENSOR_SDI" "SENSOR_SCLK" "EXT_BUS_I2C_SDA" "EXT_BUS_I2C_SCL")
+	)
 	(text "SoC"
 		(exclude_from_sim no)
 		(at 139.7 25.654 0)
@@ -2218,10 +2221,6 @@
 		(uuid "037f7a84-7af8-4d4a-b0cc-346701c9aaba")
 	)
 	(no_connect
-		(at 97.79 107.95)
-		(uuid "0457c22b-b290-4c5d-8ffe-2d2def5c4983")
-	)
-	(no_connect
 		(at 97.79 123.19)
 		(uuid "07d5d3d0-2ea2-4885-b61c-818c6d0f78f7")
 	)
@@ -2244,10 +2243,6 @@
 	(no_connect
 		(at 140.97 59.69)
 		(uuid "314d826a-af2e-47ed-8468-8061bb702dd8")
-	)
-	(no_connect
-		(at 97.79 105.41)
-		(uuid "35004550-1b09-41d3-955a-fd3bdc141bd8")
 	)
 	(no_connect
 		(at 135.89 59.69)
@@ -2441,6 +2436,15 @@
 			(type default)
 		)
 		(uuid "2be4d683-ab27-4c75-aaa6-eaa79ce2c116")
+	)
+	(bus_entry
+		(at 254 116.84)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34aa0fae-741c-427f-a9a5-2defefc90d9d")
 	)
 	(bus_entry
 		(at 254 43.18)
@@ -2677,6 +2681,15 @@
 		(uuid "daa7f38f-04fb-4af3-8719-b0006bc8b256")
 	)
 	(bus_entry
+		(at 254 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f5c534-3678-47ec-8235-e9158de76159")
+	)
+	(bus_entry
 		(at 254 91.44)
 		(size -2.54 2.54)
 		(stroke
@@ -2773,6 +2786,16 @@
 		)
 		(uuid "0e59c7b8-5b8f-46bd-8aa5-1bb8cf900de2")
 	)
+	(bus
+		(pts
+			(xy 254 116.84) (xy 254 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b58f5e-dba9-421c-9a83-0f78f133a2b0")
+	)
 	(wire
 		(pts
 			(xy 25.4 129.54) (xy 35.56 129.54)
@@ -2812,6 +2835,16 @@
 			(type default)
 		)
 		(uuid "1a61feb1-66a2-4176-a237-5d2a2af47696")
+	)
+	(wire
+		(pts
+			(xy 241.3 116.84) (xy 251.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bdeb514-9a2c-4f59-bc59-b1e93b9d2a39")
 	)
 	(wire
 		(pts
@@ -2902,6 +2935,16 @@
 			(type default)
 		)
 		(uuid "26442afb-2bea-4982-bc23-7304067ed4ad")
+	)
+	(wire
+		(pts
+			(xy 88.9 107.95) (xy 97.79 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f78d8f-1f20-4b85-86a8-e4ef7fb151ab")
 	)
 	(wire
 		(pts
@@ -3032,6 +3075,16 @@
 			(type default)
 		)
 		(uuid "48891234-9959-4f3e-9c1e-f4a192e232ca")
+	)
+	(wire
+		(pts
+			(xy 88.9 105.41) (xy 97.79 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a787382-2140-4ec3-88bc-79efb05c4762")
 	)
 	(bus
 		(pts
@@ -3445,6 +3498,16 @@
 	)
 	(bus
 		(pts
+			(xy 259.08 114.3) (xy 254 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96892572-4128-4429-a5d1-8bf3ba666887")
+	)
+	(bus
+		(pts
 			(xy 43.18 106.68) (xy 38.1 106.68)
 		)
 		(stroke
@@ -3643,6 +3706,16 @@
 		)
 		(uuid "c540198d-1efc-4c50-88fb-65e875378f79")
 	)
+	(bus
+		(pts
+			(xy 254 114.3) (xy 254 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87382af-9ef7-4a6e-bdd2-00407891ed0a")
+	)
 	(wire
 		(pts
 			(xy 104.14 58.42) (xy 104.14 59.69)
@@ -3832,6 +3905,16 @@
 			(type default)
 		)
 		(uuid "f1d113e7-a066-4bcb-8945-5639e3f4684b")
+	)
+	(wire
+		(pts
+			(xy 241.3 119.38) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3df2eb4-93b0-4ca0-82c2-987a02ea182a")
 	)
 	(bus
 		(pts
@@ -4063,6 +4146,16 @@
 		)
 		(uuid "411729b5-1625-41c1-89bb-9ed002c7d409")
 	)
+	(label "EXT_BUS_I2C_SDA"
+		(at 241.3 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "414d4983-dec9-4a3b-a7c1-38be36b7ff53")
+	)
 	(label "SD_SD0_D0"
 		(at 25.4 86.36 0)
 		(effects
@@ -4284,6 +4377,16 @@
 		)
 		(uuid "8f997740-b314-4351-96d9-17c34db74d49")
 	)
+	(label "EXT_BUS_I2C_SCL"
+		(at 88.9 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91e02df3-982a-407b-ba62-5f91b437435b")
+	)
 	(label "IO_PWM13"
 		(at 181.61 95.25 0)
 		(effects
@@ -4445,6 +4548,16 @@
 		)
 		(uuid "b7529558-2fe8-45d1-a98c-0af65317a76c")
 	)
+	(label "EXT_BUS_I2C_SDA"
+		(at 88.9 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bccbb0ed-a22d-4701-b8f1-613618a48642")
+	)
 	(label "GPS_RX"
 		(at 190.5 110.49 0)
 		(effects
@@ -4514,6 +4627,16 @@
 			(justify left bottom)
 		)
 		(uuid "d072fd65-fafc-4827-991a-68713e8da6da")
+	)
+	(label "EXT_BUS_I2C_SCL"
+		(at 241.3 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0b88b62-1944-4869-b789-1d9f66c2d0e3")
 	)
 	(label "SD_SD0_D1"
 		(at 88.9 125.73 180)
@@ -4624,6 +4747,17 @@
 			(justify right bottom)
 		)
 		(uuid "fdbaffe0-6fc1-4f0a-adf3-1e3123e6eca8")
+	)
+	(hierarchical_label "{EXT_BUS}"
+		(shape bidirectional)
+		(at 259.08 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1284f628-e097-4e74-a3d2-8bc77aa7d75a")
 	)
 	(hierarchical_label "{LORA_BUS}"
 		(shape bidirectional)
