@@ -1762,7 +1762,7 @@
 						)
 					)
 					(alternate "I2C2_SDA" bidirectional line)
-					(alternate "SPI3_SDI" bidirectional line)
+					(alternate "SPI3_SDI" output line)
 				)
 				(pin bidirectional line
 					(at 41.91 -3.81 180)
@@ -1803,7 +1803,7 @@
 					)
 					(alternate "I2C2_SCL" bidirectional clock)
 					(alternate "PWM3" output line)
-					(alternate "SPI3_SD0" output line)
+					(alternate "SPI3_SD0" input line)
 				)
 				(pin bidirectional line
 					(at 41.91 -8.89 180)
