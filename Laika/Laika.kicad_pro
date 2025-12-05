@@ -31,7 +31,31 @@
         ""
       ],
       [
+        "multiple_net_names|1536700|927100|8b7b2c35-591e-4786-b863-58cd6db50d6d|40504cd2-8301-4a49-b33a-10bed88f0265|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/36537423-51c7-4eee-9bcb-03bb0ff13320|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/36537423-51c7-4eee-9bcb-03bb0ff13320|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/36537423-51c7-4eee-9bcb-03bb0ff13320",
+        ""
+      ],
+      [
+        "multiple_net_names|1536700|927100|96e532fb-9b54-4945-aa30-4542bbf41494|40504cd2-8301-4a49-b33a-10bed88f0265|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/36537423-51c7-4eee-9bcb-03bb0ff13320|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/36537423-51c7-4eee-9bcb-03bb0ff13320|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/36537423-51c7-4eee-9bcb-03bb0ff13320",
+        ""
+      ],
+      [
+        "no_connect_connected|1600200|977900|b72d24c1-1133-4e1b-9746-fec6570c6f03|a6dbb771-6942-4c91-af2d-822ae99d4585|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/b8119f98-127c-4108-9e11-ac714f03ed56||",
+        ""
+      ],
+      [
         "pin_to_pin|1041400|596900|91eb5423-c9bf-4de1-8ff7-8eff7d2ec2bd|27c339f2-a99d-4d54-9014-6fb208b9c92e|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/afb454cc-1c16-4ce4-9f1e-961c69cee3bb|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/afb454cc-1c16-4ce4-9f1e-961c69cee3bb|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/7c657933-39a1-4841-9d8c-8e8e4437a1f4",
+        ""
+      ],
+      [
+        "pin_to_pin|1257300|965200|edb927db-f816-4512-88e2-547fc2cca5e3|27c339f2-a99d-4d54-9014-6fb208b9c92e|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/d45d1386-1f74-4a90-94b4-015d5f010220|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/d45d1386-1f74-4a90-94b4-015d5f010220|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/7c657933-39a1-4841-9d8c-8e8e4437a1f4",
+        "Connect to Vdd_IO or GND when using IMU in Mode 1"
+      ],
+      [
+        "pin_to_pin|1270000|889000|e4cc96eb-d803-4e9b-95b4-f7573e4dc2d7|c71c1dc6-9855-4d29-9a3c-e5ec1fe33690|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/2be7367e-bc3d-4720-a273-61e25c82a758|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/2be7367e-bc3d-4720-a273-61e25c82a758|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/b8119f98-127c-4108-9e11-ac714f03ed56",
+        ""
+      ],
+      [
+        "pin_to_pin|1498600|711200|edb927db-f816-4512-88e2-547fc2cca5e3|27c339f2-a99d-4d54-9014-6fb208b9c92e|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/d45d1386-1f74-4a90-94b4-015d5f010220|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/ba230dfb-0557-4ab9-8852-5cafebe5e88a/d45d1386-1f74-4a90-94b4-015d5f010220|/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/7c657933-39a1-4841-9d8c-8e8e4437a1f4",
         ""
       ]
     ],
@@ -285,25 +309,31 @@
       {
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "name": "UART",
+        "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
+        "name": "UART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -356,6 +386,22 @@
       {
         "netclass": "UART",
         "pattern": "/*/GPS_*X"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/*/*_SDO"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/*/*_SDI"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/*/*_SCLK"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/*/*_CS"
       }
     ]
   },
@@ -678,6 +724,10 @@
     [
       "2be7367e-bc3d-4720-a273-61e25c82a758",
       "Accelerometer"
+    ],
+    [
+      "b8119f98-127c-4108-9e11-ac714f03ed56",
+      "Magnetometer"
     ],
     [
       "3579a39d-b862-4fa6-a309-d4c6c5081eac",

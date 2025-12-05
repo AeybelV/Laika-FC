@@ -51,9 +51,9 @@
 		)
 		(uuid 8de15fce-4ce0-46d8-80b0-a28ae2e19be9)
 	)
-	(text "12"
+	(text "13"
 		(exclude_from_sim no)
-		(at 30.734 106.172 0)
+		(at 106.934 77.978 0)
 		(effects
 			(font
 				(size 1.9304 1.9304)
@@ -150,7 +150,7 @@
 	)
 	(text "LoRa"
 		(exclude_from_sim no)
-		(at 39.878 101.092 0)
+		(at 39.878 103.632 0)
 		(effects
 			(font
 				(size 1.9304 1.9304)
@@ -158,13 +158,13 @@
 				(bold yes)
 			)
 			(justify left)
-			(href "#10")
+			(href "#11")
 		)
 		(uuid "2784261a-ea31-462f-8b1b-81925e8ac4a3")
 	)
-	(text "14"
+	(text "15"
 		(exclude_from_sim no)
-		(at 106.934 81.026 0)
+		(at 106.934 83.82 0)
 		(effects
 			(font
 				(size 1.9304 1.9304)
@@ -177,7 +177,7 @@
 	)
 	(text "PWM and IO"
 		(exclude_from_sim no)
-		(at 39.878 106.172 0)
+		(at 116.078 77.978 0)
 		(effects
 			(font
 				(size 1.9304 1.9304)
@@ -185,7 +185,7 @@
 				(bold yes)
 			)
 			(justify left)
-			(href "#12")
+			(href "#13")
 		)
 		(uuid "2efad14a-6930-4324-bd1b-dc218a03e040")
 	)
@@ -244,9 +244,22 @@
 		)
 		(uuid "382640c8-8267-466d-8084-86b34b43d955")
 	)
-	(text "13"
+	(text "10"
 		(exclude_from_sim no)
-		(at 106.934 78.232 0)
+		(at 30.734 101.092 0)
+		(effects
+			(font
+				(size 1.9304 1.9304)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "39a71530-a17b-4ec1-9fd7-444e5b7521d4")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 106.934 81.026 0)
 		(effects
 			(font
 				(size 1.9304 1.9304)
@@ -272,7 +285,7 @@
 	)
 	(text "GPS"
 		(exclude_from_sim no)
-		(at 39.878 103.632 0)
+		(at 39.878 106.172 0)
 		(effects
 			(font
 				(size 1.9304 1.9304)
@@ -280,7 +293,7 @@
 				(bold yes)
 			)
 			(justify left)
-			(href "#11")
+			(href "#12")
 		)
 		(uuid "5b039918-46d1-4738-acb5-9d01f90871a5")
 	)
@@ -327,7 +340,7 @@
 	)
 	(text "External Bus"
 		(exclude_from_sim no)
-		(at 116.078 81.026 0)
+		(at 116.078 83.82 0)
 		(effects
 			(font
 				(size 1.9304 1.9304)
@@ -335,7 +348,7 @@
 				(bold yes)
 			)
 			(justify left)
-			(href "#14")
+			(href "#15")
 		)
 		(uuid "688d7ce5-a009-4256-83b3-6520e385eda5")
 	)
@@ -366,9 +379,9 @@
 		)
 		(uuid "780b97ad-17a1-480c-b367-6ee2ceaefd3c")
 	)
-	(text "11"
+	(text "12"
 		(exclude_from_sim no)
-		(at 30.734 103.632 0)
+		(at 30.734 106.172 0)
 		(effects
 			(font
 				(size 1.9304 1.9304)
@@ -463,7 +476,7 @@
 	)
 	(text "Misc - Buttons and Buzzers"
 		(exclude_from_sim no)
-		(at 116.078 83.566 0)
+		(at 116.078 86.36 0)
 		(effects
 			(font
 				(size 1.9304 1.9304)
@@ -471,7 +484,7 @@
 				(bold yes)
 			)
 			(justify left)
-			(href "#15")
+			(href "#16")
 		)
 		(uuid "bb9322b9-e3be-429c-917b-7f5ccd2fdaf2")
 	)
@@ -529,7 +542,7 @@
 	)
 	(text "SD Card"
 		(exclude_from_sim no)
-		(at 116.078 78.232 0)
+		(at 116.078 81.026 0)
 		(effects
 			(font
 				(size 1.9304 1.9304)
@@ -537,13 +550,13 @@
 				(bold yes)
 			)
 			(justify left)
-			(href "#13")
+			(href "#14")
 		)
 		(uuid "c9171243-55cf-4ecb-8d12-a6b2c52ef348")
 	)
-	(text "15"
+	(text "16"
 		(exclude_from_sim no)
-		(at 106.934 83.566 0)
+		(at 106.934 86.36 0)
 		(effects
 			(font
 				(size 1.9304 1.9304)
@@ -568,9 +581,9 @@
 		)
 		(uuid "d401d038-2ca9-4aba-9de0-8de78de89ad2")
 	)
-	(text "10"
+	(text "11"
 		(exclude_from_sim no)
-		(at 30.734 101.092 0)
+		(at 30.734 103.632 0)
 		(effects
 			(font
 				(size 1.9304 1.9304)
@@ -594,6 +607,20 @@
 			(justify right)
 		)
 		(uuid "f1c5fbd3-cbc4-460a-9d09-b5e9b2883c64")
+	)
+	(text "Magnetometer"
+		(exclude_from_sim no)
+		(at 39.878 101.092 0)
+		(effects
+			(font
+				(size 1.9304 1.9304)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+			(href "#10")
+		)
+		(uuid "f5078766-9419-4167-9368-077afaaa2863")
 	)
 	(text "4"
 		(exclude_from_sim no)

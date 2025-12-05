@@ -265,6 +265,26 @@
 	)
 	(bus
 		(pts
+			(xy 139.7 72.39) (xy 160.02 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066438c1-724c-4799-86b9-c90567b07811")
+	)
+	(bus
+		(pts
+			(xy 139.7 76.2) (xy 160.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12442674-a242-4336-bcaa-7f020f968cf6")
+	)
+	(bus
+		(pts
 			(xy 149.86 50.8) (xy 160.02 50.8)
 		)
 		(stroke
@@ -582,7 +602,7 @@
 		(instances
 			(project "Laika"
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960"
-					(page "15")
+					(page "16")
 				)
 			)
 		)
@@ -624,7 +644,7 @@
 		(instances
 			(project "Laika"
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960"
-					(page "14")
+					(page "15")
 				)
 			)
 		)
@@ -676,7 +696,7 @@
 		(instances
 			(project "Laika"
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960"
-					(page "11")
+					(page "12")
 				)
 			)
 		)
@@ -728,7 +748,7 @@
 		(instances
 			(project "Laika"
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960"
-					(page "10")
+					(page "11")
 				)
 			)
 		)
@@ -780,7 +800,7 @@
 		(instances
 			(project "Laika"
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960"
-					(page "13")
+					(page "14")
 				)
 			)
 		)
@@ -884,7 +904,7 @@
 		(instances
 			(project "Laika"
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960"
-					(page "12")
+					(page "13")
 				)
 			)
 		)
@@ -972,6 +992,26 @@
 				(justify right)
 			)
 		)
+		(pin "{SENSOR_BUS}" bidirectional
+			(at 139.7 72.39 0)
+			(uuid "5a50a735-bd14-4764-b3cb-01aa2ab9723f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SENSOR_CS}" bidirectional
+			(at 139.7 76.2 0)
+			(uuid "d8a97a09-a074-4ad3-bd20-2ad223b636f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Laika"
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960"
@@ -1012,6 +1052,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{SENSOR_BUS}" bidirectional
+			(at 160.02 72.39 180)
+			(uuid "1c5e77b8-fdd0-4199-a1e3-e52aefe3757c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SENSOR_CS}" bidirectional
+			(at 160.02 76.2 180)
+			(uuid "ea115e53-eae7-4d41-af97-0036abfc1d9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
