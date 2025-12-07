@@ -313,19 +313,19 @@
       {
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -337,19 +337,19 @@
       {
         "name": "UART",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "USER_IO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
