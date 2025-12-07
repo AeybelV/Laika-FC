@@ -673,7 +673,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 88.9) (xy 146.05 88.9)
+			(xy 130.81 88.9) (xy 146.05 88.9)
 		)
 		(stroke
 			(width 0)
@@ -821,17 +821,7 @@
 		)
 		(uuid "19b6e934-0c64-47a5-8bdd-eb86a87922d0")
 	)
-	(label "IO_PWM10"
-		(at 139.7 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "72b163fb-ae5a-438b-b670-08fecd5e553f")
-	)
-	(label "IO_PWM13"
+	(label "IO_ADC1"
 		(at 139.7 96.52 180)
 		(effects
 			(font
@@ -839,7 +829,37 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "8b5f5f50-d27b-4852-92e9-8d5dfd048a2c")
+		(uuid "49d0ac44-85d6-4df8-af27-41f50564334c")
+	)
+	(label "IO_PWM12"
+		(at 139.7 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62635d31-0526-47c4-9cc5-7a55e0372933")
+	)
+	(label "IO_PWM10"
+		(at 139.7 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65e63a84-c920-4145-b050-dea1227f77af")
+	)
+	(label "IO_PWM13"
+		(at 139.7 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b816f68-2deb-48b2-aa67-43a9ef2aa8c2")
 	)
 	(label "IO_ADC1"
 		(at 215.9 101.6 0)
@@ -862,34 +882,14 @@
 		(uuid "b7d90167-6655-4c92-96fd-dae2e2468eaf")
 	)
 	(label "IO_GPIOB_22"
-		(at 139.7 88.9 180)
+		(at 139.7 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c2764bef-24b3-41d6-aa7e-e9f6678cb24f")
-	)
-	(label "IO_PWM12"
-		(at 139.7 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e4549f42-e671-4c52-b662-b330f8c7a7ff")
-	)
-	(label "IO_ADC1"
-		(at 139.7 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e45d5e17-69b7-4990-aeca-876c7e968b0d")
+		(uuid "b935092e-a77d-4e87-868f-300d756bad39")
 	)
 	(label "IO_PWM13"
 		(at 215.9 99.06 0)
@@ -924,7 +924,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 101.6 0)
+		(at 139.7 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -933,7 +933,7 @@
 		(fields_autoplaced yes)
 		(uuid "b43a2895-d605-4cfb-b15a-bb81b82117d7")
 		(property "Reference" "#PWR0105"
-			(at 139.7 107.95 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,7 +942,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 106.68 0)
+			(at 134.62 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -951,7 +951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 101.6 0)
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,7 +960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 101.6 0)
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 101.6 0)
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +991,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 139.7 86.36 0)
+		(at 130.81 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1000,7 +1000,7 @@
 		(fields_autoplaced yes)
 		(uuid "b63ca3b7-016f-4ed5-8539-48d97d688afc")
 		(property "Reference" "#PWR0106"
-			(at 139.7 90.17 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,7 +1009,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 139.7 81.28 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 86.36 0)
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +1026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 86.36 0)
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1035,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 139.7 86.36 0)
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,7 +1047,7 @@
 			(uuid "6c61e2a5-5296-4494-8482-5e5c5e0fad71")
 		)
 		(instances
-			(project ""
+			(project "Laika"
 				(path "/57baccbf-5d29-4714-8f2e-7e9f593fcdf8/6c078d98-f795-4bff-ba6d-ace5d579e960/81224984-5643-4c36-ac79-8e44b8e923a5"
 					(reference "#PWR0106")
 					(unit 1)
