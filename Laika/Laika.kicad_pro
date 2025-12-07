@@ -406,6 +406,10 @@
       {
         "netclass": "SPI",
         "pattern": "/*/*_CS"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "GND"
       }
     ]
   },
