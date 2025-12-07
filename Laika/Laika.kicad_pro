@@ -311,33 +311,45 @@
         "wire_width": 6
       },
       {
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "name": "PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "SD",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "name": "UART",
+        "name": "SD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "name": "USB",
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "UART",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "USER_IO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -406,6 +418,18 @@
       {
         "netclass": "SPI",
         "pattern": "/*/*_CS"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/*/*I2C_S*"
+      },
+      {
+        "netclass": "USER_IO",
+        "pattern": "/*/IO*"
       }
     ]
   },
@@ -839,7 +863,7 @@
   "text_variables": {
     "BOARD_NAME": "Laika Flight Computer",
     "COMPANY": "Aeybel Varghese",
-    "RELEASE_DATE": "2025-NOV-14",
+    "RELEASE_DATE": "2025-DEC-06",
     "REVISION": "1",
     "VARIANT": "Draft"
   }

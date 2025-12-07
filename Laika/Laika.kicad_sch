@@ -13,7 +13,7 @@
 	)
 	(lib_symbols)
 	(bus_alias "USB_DATA"
-		(members "USB_DM" "USB_DP")
+		(members "USB_DN" "USB_DP")
 	)
 	(rectangle
 		(start 190.5 76.2)
