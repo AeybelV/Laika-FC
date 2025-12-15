@@ -3035,6 +3035,16 @@
 		)
 		(uuid "b190ff95-fc0b-41a7-81ba-64354f319f5f")
 	)
+	(label "SD_SD0_CLK_RAW"
+		(at 190.5 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b515b057-02aa-42cb-b4d7-337035811ce2")
+	)
 	(label "SD_SD0_CD"
 		(at 199.39 156.21 0)
 		(effects

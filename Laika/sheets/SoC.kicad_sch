@@ -2225,6 +2225,10 @@
 		(uuid "07d5d3d0-2ea2-4885-b61c-818c6d0f78f7")
 	)
 	(no_connect
+		(at 158.75 143.51)
+		(uuid "0fae4b7d-dff9-457d-ae3b-4e9d023aefb4")
+	)
+	(no_connect
 		(at 97.79 82.55)
 		(uuid "14516800-0d62-41c1-9727-f3a4d5494608")
 	)
@@ -2409,15 +2413,6 @@
 			(type default)
 		)
 		(uuid "19e6df83-6e69-4f93-acd0-7fe20ae3ad12")
-	)
-	(bus_entry
-		(at 38.1 127)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2149abbd-109f-4773-8d2f-b78df3a2f90e")
 	)
 	(bus_entry
 		(at 38.1 88.9)
@@ -2766,16 +2761,6 @@
 		)
 		(uuid "0882e326-eec5-4228-8942-c780c4ab12f5")
 	)
-	(bus
-		(pts
-			(xy 38.1 127) (xy 38.1 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b30ae7e-2224-4951-a9ea-7e98629669f2")
-	)
 	(wire
 		(pts
 			(xy 113.03 152.4) (xy 113.03 143.51)
@@ -2795,16 +2780,6 @@
 			(type default)
 		)
 		(uuid "10b58f5e-dba9-421c-9a83-0f78f133a2b0")
-	)
-	(wire
-		(pts
-			(xy 25.4 129.54) (xy 35.56 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "132b9bbe-d802-4a47-bca6-c51b14a43bcc")
 	)
 	(wire
 		(pts
@@ -3636,16 +3611,6 @@
 		)
 		(uuid "b41e1780-2bcd-4574-8fd3-3642de6e50c6")
 	)
-	(bus
-		(pts
-			(xy 38.1 124.46) (xy 38.1 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4c2bee8-64b0-41df-850f-6470db40ef23")
-	)
 	(wire
 		(pts
 			(xy 135.89 152.4) (xy 135.89 143.51)
@@ -3986,15 +3951,15 @@
 		)
 		(uuid "fc7969e6-2cb9-462a-b26a-abe925062a4b")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 158.75 152.4) (xy 158.75 143.51)
+			(xy 38.1 124.46) (xy 38.1 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fceafe8d-24c9-4fb9-ac95-3c7fb19188c2")
+		(uuid "fd52d2d4-87b7-4eac-b3d5-b39459bf1ca3")
 	)
 	(wire
 		(pts
@@ -4226,16 +4191,6 @@
 		)
 		(uuid "4f2902af-ea06-4c64-838b-0c71a175a380")
 	)
-	(label "GPS_RESET"
-		(at 25.4 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50e515ce-78bd-492c-ab9b-5ae930cc81b6")
-	)
 	(label "GPS_PPS"
 		(at 25.4 127 0)
 		(effects
@@ -4245,16 +4200,6 @@
 			(justify left bottom)
 		)
 		(uuid "511d0c29-b18c-402e-9de3-2d7118aa496a")
-	)
-	(label "GPS_RESET"
-		(at 158.75 152.4 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "550ac06e-b020-476b-a73d-0c5900d47886")
 	)
 	(label "SD_PWR_EN"
 		(at 128.27 152.4 270)
